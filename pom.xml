@@ -26,6 +26,7 @@
 	</scm>	
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
 	<modules>
+		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
 	</modules>
 	<properties>
 	</properties>	
