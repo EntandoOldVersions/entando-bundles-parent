@@ -26,6 +26,7 @@
 	</scm>	
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
 	<modules>
+		<module>entando-bundles-misc/entando-misc-html5-essentials</module>
 		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
 	</modules>
 	<properties>
@@ -166,5 +167,23 @@
 		</pluginManagement>
 	</build>
 	<dependencies>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>	
+ 		<dependency>
+			<groupId>org.entando.entando</groupId>
+			<artifactId>entando-core-engine</artifactId>
+			<version>2.4.0.1</version>
+			<scope>provided</scope>
+		</dependency>	
 	</dependencies>
 </project>
