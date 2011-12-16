@@ -1,3 +1,47 @@
-#div1 {
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Droid Serif", serif;
+	font-size: 100.01%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Droid Sans", sans;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2, h3 {
+	font-size: 1.2em;
+}
+
+p, li, h4, h5, h6, td, th, dt, dd {
+	font-size: 1em;
+}
+
+footer {
+	font-size: 0.85em;
+	font-style: italic; 
+}
+
+#h5c3-3boxes-toolbar,
+header,
+#h5c3-3boxes-main,
+footer {
 	background-color: orange;
+	width: 96%;
+	margin: 0 auto;	
+}
+
+#h5c3-3boxes-main img {
+	max-width: 100%;
+}
+
+.monospace {
+	font-family: "Droid Mono", monospace;
 }

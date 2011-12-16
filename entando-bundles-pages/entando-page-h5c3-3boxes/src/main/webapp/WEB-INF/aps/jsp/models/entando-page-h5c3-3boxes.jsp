@@ -1,10 +1,10 @@
 <%@ taglib prefix="wp" uri="/aps-core"%>
 <!DOCTYPE HTML>
-<html lang="<wp:info key="currentLang" />">
+<html lang="<wp:info key="currentLang" />" class="no-js">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title><wp:currentPage param="title" /> - <wp:i18n key="PORTAL_TITLE"></wp:i18n></title>
 
@@ -15,7 +15,9 @@
 	
 	<link rel="stylesheet" href="<wp:cssURL />entando-misc-html5-essentials/html5reset-1.6.1.css" media="screen" />
 	<link rel="stylesheet" href="<wp:cssURL />pagemodels/entando-page-h5c3-3boxes/general.css" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 
+	<script src="<wp:resourceURL />static/js/entando-misc-html5-essentials/modernizr-2.0.6-full.js"></script>
 
 		<%-- css --%>
 		<wp:outputHeadInfo type="CSS">
@@ -38,7 +40,7 @@
 
 		<%-- js global vars --%>
 		<wp:outputHeadInfo type="JS_VARS">
-			<script type="text/javascript">
+			<script>
 			<!--//--><![CDATA[//><!--
 				<wp:printHeadInfo />
 			//--><!]]>
@@ -47,12 +49,12 @@
 
 		<%-- js scripts (remember to include the libraries first) --%>
 		<wp:outputHeadInfo type="JS">
-			<script type="text/javascript" src="<wp:resourceURL />static/js/<wp:printHeadInfo />"></script>
+			<script src="<wp:resourceURL />static/js/<wp:printHeadInfo />"></script>
 		</wp:outputHeadInfo>
 
 		<%-- js code --%>
 		<wp:outputHeadInfo type="JS_RAW">
-			<script type="text/javascript">
+			<script>
 			<!--//--><![CDATA[//><!--
 				<wp:printHeadInfo />
 			//--><!]]>
@@ -61,15 +63,46 @@
 
 </head>
 <body>
-<header>
-	<h1>Your Title</h1>
-</header>
-<section>
+
+<section id="h5c3-3boxes-toolbar">
+	<p>Choose a language</p>
 	<wp:show frame="0" />
+	
+	<p>Search form</p>
+	<wp:show frame="1" />
 </section>
+
+<header>
+	<h1>Your Logo Here</h1>
+	<p>A payoff always pays its debts.</p>
+	<wp:show frame="2" />	
+</header>
+
+<section id="h5c3-3boxes-main">
+	<div>
+		<p><img src="http://dummyimage.com/770x433/848484/fefefe.png" width="770" height="433" alt="Placeholder 770x433" /></p>
+		<wp:show frame="3" />
+	</div>
+	<div>
+		<p><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></p>
+		<wp:show frame="4" />
+	</div>
+	<div>
+		<p><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></p>
+		<wp:show frame="5" />
+	</div>
+</section>
+
 <footer>
-	<p>Your footer</p>
+	<div>
+		<p>Contact Info</p>
+		<wp:show frame="6" />
+	</div>
+	
+	<div>
+		<p>Copyright &copy; Info</p>
+		<wp:show frame="7" />
+	</div>
 </footer>
 </body>
 </html>
-
