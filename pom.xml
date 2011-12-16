@@ -7,7 +7,7 @@
 		<version>7</version>
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
-	<artifactId>entando-bundles</artifactId>
+	<artifactId>entando-bundles-parent</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
