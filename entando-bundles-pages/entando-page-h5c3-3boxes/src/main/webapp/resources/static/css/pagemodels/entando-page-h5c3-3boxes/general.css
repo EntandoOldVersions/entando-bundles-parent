@@ -6,6 +6,8 @@ html, body {
 body {
 	font-family: "Droid Serif", serif;
 	font-size: 100.01%;
+	background-color: yellow;
+	padding: 0.5em 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.4em;
+	font-size: 2em;
 }
 
 h2, h3 {
@@ -39,6 +41,35 @@ footer {
 	margin: 0 auto;	
 }
 
+#h5c3-3boxes-toolbar {
+	font-family: "Droid Sans Mono", monospace;
+}
+
+#h5c3-3boxes-toolbar-1 {
+	display: inline-block;
+}
+
+#h5c3-3boxes-toolbar-2 {
+	float: right;
+	background-color: silver;
+}
+
+header {
+	margin: 0.5em auto;	
+	font-style: italic;
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Lobster Two', cursive;
+	font-weight: 700;
+	margin: 0.5em 0;
+}
+
+#h5c3-3boxes-main {
+	clear: right;
+}
+
 #h5c3-3boxes-main figure img {
 	max-width: 100%;
 }
@@ -52,5 +83,5 @@ footer {
 }
 
 .monospace {
-	font-family: "Droid Mono", monospace;
+	font-family: "Droid Sans Mono", monospace;
 }

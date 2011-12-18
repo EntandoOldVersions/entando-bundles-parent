@@ -1,6 +1,7 @@
 INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-h5c3-3boxes', '3 Boxes', '<frames>
 	<frame pos="0">
 		<descr>Header - Top I</descr>
+		<defaultShowlet code="entando-showlet-language_choose" />
 	</frame>
 	<frame pos="1">
 		<descr>Header - Top II</descr>
