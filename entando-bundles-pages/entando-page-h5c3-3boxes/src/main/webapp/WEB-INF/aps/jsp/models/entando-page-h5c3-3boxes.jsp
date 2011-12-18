@@ -80,15 +80,15 @@
 
 <section id="h5c3-3boxes-main">
 	<div>
-		<p><img src="http://dummyimage.com/770x433/848484/fefefe.png" width="770" height="433" alt="Placeholder 770x433" /></p>
+		<figure class="content-main"><img src="http://dummyimage.com/770x433/848484/fefefe.png" width="770" height="433" alt="Placeholder 770x433" /></figure>
 		<wp:show frame="3" />
 	</div>
 	<div>
-		<p><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></p>
+		<figure><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
 		<wp:show frame="4" />
 	</div>
 	<div>
-		<p><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></p>
+		<figure><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
 		<wp:show frame="5" />
 	</div>
 </section>

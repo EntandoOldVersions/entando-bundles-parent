@@ -35,11 +35,20 @@ header,
 footer {
 	background-color: orange;
 	width: 96%;
+	max-width: 770px;	
 	margin: 0 auto;	
 }
 
-#h5c3-3boxes-main img {
+#h5c3-3boxes-main figure img {
 	max-width: 100%;
+}
+
+#h5c3-3boxes-main figure.content-main img {
+	max-width: none;
+}
+
+#h5c3-3boxes-main figure.content-main {
+	overflow: hidden;
 }
 
 .monospace {
