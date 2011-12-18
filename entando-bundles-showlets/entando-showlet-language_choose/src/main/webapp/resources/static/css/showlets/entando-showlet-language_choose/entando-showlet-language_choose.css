@@ -1,0 +1,48 @@
+/****
+ * WARNING!
+ * This CSS is well suited for 2 languages.
+ * But you can override it to better fit your project
+ ****/
+
+.entando-showlet-language_choose ul {
+	list-style-type: none;
+}
+
+.entando-showlet-language_choose li {
+	display: inline-block;
+	margin: 0.5em 0.5em 0.5em 0;
+	padding: 0;	
+}
+
+.entando-showlet-language_choose li .current,
+.entando-showlet-language_choose li a {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0.5em 1em;
+	font-weight: bold;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;	
+}
+
+.entando-showlet-language_choose li a:link,
+.entando-showlet-language_choose li a:visited {
+	background-color: rgba(255, 255, 255, 0.2);
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+
+.entando-showlet-language_choose li .current,
+.entando-showlet-language_choose li a:hover,
+.entando-showlet-language_choose li a:active,
+.entando-showlet-language_choose li a:focus {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.entando-showlet-language_choose li a:hover,
+.entando-showlet-language_choose li a:active,
+.entando-showlet-language_choose li a:focus {
+	text-decoration: none;
+}
