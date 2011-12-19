@@ -16,8 +16,7 @@
 	<link rel="stylesheet" href="<wp:cssURL />entando-misc-html5-essentials/html5reset-1.6.1.css" media="screen" />
 	<link rel="stylesheet" href="<wp:cssURL />pagemodels/entando-page-h5c3-3boxes/general.css" media="screen" />
 	
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700|Lobster+Two:700italic' rel='stylesheet' type='text/css'/>
 
 	<script src="<wp:resourceURL />static/js/entando-misc-html5-essentials/modernizr-2.0.6-full.js"></script>
 
