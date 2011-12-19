@@ -78,8 +78,11 @@
 <header>
 	<h1>Your Logo Here</h1>
 	<p>A payoff always pays its debts.</p>
-	<wp:show frame="2" />	
 </header>
+
+<nav>
+	<wp:show frame="2" />
+</nav>	
 
 <section id="h5c3-3boxes-main">
 	<div>
@@ -87,23 +90,21 @@
 		<wp:show frame="3" />
 	</div>
 	<div>
-		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/350x200.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
+		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/365x200.png" width="365" height="200" alt="Placeholder 365x200" /></figure>
 		<wp:show frame="4" />
 	</div>
 	<div>
-		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/350x200.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
+		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/365x200.png" width="365" height="200" alt="Placeholder 365x200" /></figure>
 		<wp:show frame="5" />
 	</div>
 </section>
 
 <footer>
 	<div>
-		<p>Contact Info</p>
 		<wp:show frame="6" />
 	</div>
 	
 	<div>
-		<p>Copyright &copy; Info</p>
 		<wp:show frame="7" />
 	</div>
 </footer>

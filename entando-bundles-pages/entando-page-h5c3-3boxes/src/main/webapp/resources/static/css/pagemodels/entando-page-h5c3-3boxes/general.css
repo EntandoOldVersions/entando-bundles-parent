@@ -11,6 +11,9 @@ body {
 	background-repeat: repeat;
 	padding: 0.5em 0;
 	color: #f1f2f1;
+	-webkit-box-shadow: inset 0 0 6em 0 rgba(255, 255, 255, 0.1);
+	-moz-box-shadow: inset 0 0 6em 0 rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 0 6em 0 rgba(255, 255, 255, 0.1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,8 +32,24 @@ p, li, h4, h5, h6, td, th, dt, dd {
 	font-size: 1em;
 }
 
+a:link,
+a:visited {
+	color: rgba(255, 255, 255, 0.9);
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(255, 255, 255, 0.9);
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	border-bottom: 0.1em solid transparent;
+}
+
 #h5c3-3boxes-toolbar,
 header,
+nav,
 #h5c3-3boxes-main,
 footer {
 	width: 96%;
@@ -54,7 +73,12 @@ footer {
 
 header {
 	clear: both;	
-	margin: 0.5em auto;	
+	margin: 1em auto;	
+}
+
+header h1,
+header p {
+	font-weight: 700;
 	font-style: italic;
 	text-align: center;
 	color: rgba(178, 224, 46, 1);
@@ -64,8 +88,34 @@ header {
 
 header h1 {
 	font-family: 'Lobster Two', cursive;
-	font-weight: 700;
-	margin: 0.5em 0;
+	font-size: 3em;
+	margin: 0 0 0.5em 0;	
+}
+
+nav {
+	font-family: "Droid Sans", sans-serif;
+	margin: 1em auto;
+}
+
+#h5c3-3boxes-main div {
+	width: 100%;
+	float: left;	
+	margin-bottom: 4%;
+}
+
+#h5c3-3boxes-main figure {
+	width: 100%;
+	float: left;
+}
+
+#h5c3-3boxes-main div:first-child {
+	float: none;
+	width: auto;
+}
+
+#h5c3-3boxes-main div:nth-child(2n) {
+	margin-right: 5%;
+	clear: left;
 }
 
 #h5c3-3boxes-main figure img {
@@ -78,9 +128,11 @@ header h1 {
 
 #h5c3-3boxes-main figure.content-main {
 	overflow: hidden;
+	float: none;
 }
 
 footer {
+	clear: left;
 	font-size: 0.85em;
 	font-style: italic; 
 }
