@@ -5,6 +5,7 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-h
 	</frame>
 	<frame pos="1">
 		<descr>Header - Top II</descr>
+		<defaultShowlet code="entando-showlet-search_form" />
 	</frame>
 	<frame pos="2">
 		<descr>Header - Bottom Right</descr>

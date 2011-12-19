@@ -15,6 +15,7 @@
 	
 	<link rel="stylesheet" href="<wp:cssURL />entando-misc-html5-essentials/html5reset-1.6.1.css" media="screen" />
 	<link rel="stylesheet" href="<wp:cssURL />pagemodels/entando-page-h5c3-3boxes/general.css" media="screen" />
+	
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700italic' rel='stylesheet' type='text/css'>
 
@@ -70,7 +71,6 @@
 		<wp:show frame="0" />
 	</div>
 	<div id="h5c3-3boxes-toolbar-2">	
-		<p>Search form</p>
 		<wp:show frame="1" />
 	</div>
 </section>
@@ -83,15 +83,15 @@
 
 <section id="h5c3-3boxes-main">
 	<div>
-		<figure class="content-main"><img src="http://dummyimage.com/770x433/848484/fefefe.png" width="770" height="433" alt="Placeholder 770x433" /></figure>
+		<figure class="content-main"><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/770x433.png" width="770" height="433" alt="Placeholder 770x433" /></figure>
 		<wp:show frame="3" />
 	</div>
 	<div>
-		<figure><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
+		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/350x200.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
 		<wp:show frame="4" />
 	</div>
 	<div>
-		<figure><img src="http://dummyimage.com/350x200/444444/fefefe.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
+		<figure><img src="<wp:imgURL/>pagemodels/entando-page-h5c3-3boxes/350x200.png" width="350" height="200" alt="Placeholder 350x200" /></figure>
 		<wp:show frame="5" />
 	</div>
 </section>

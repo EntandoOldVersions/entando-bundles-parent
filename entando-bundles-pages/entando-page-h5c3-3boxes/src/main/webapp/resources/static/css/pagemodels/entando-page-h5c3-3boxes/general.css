@@ -6,8 +6,11 @@ html, body {
 body {
 	font-family: "Droid Serif", serif;
 	font-size: 100.01%;
-	background-color: yellow;
+	background-image: url("../../../img/pagemodels/entando-page-h5c3-3boxes/broken_noise.png");
+	background-position: 0 0;
+	background-repeat: repeat;
 	padding: 0.5em 0;
+	color: #f1f2f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,16 +29,10 @@ p, li, h4, h5, h6, td, th, dt, dd {
 	font-size: 1em;
 }
 
-footer {
-	font-size: 0.85em;
-	font-style: italic; 
-}
-
 #h5c3-3boxes-toolbar,
 header,
 #h5c3-3boxes-main,
 footer {
-	background-color: orange;
 	width: 96%;
 	max-width: 770px;	
 	margin: 0 auto;	
@@ -47,27 +44,28 @@ footer {
 
 #h5c3-3boxes-toolbar-1 {
 	display: inline-block;
+	width: 48%;
 }
 
 #h5c3-3boxes-toolbar-2 {
 	float: right;
-	background-color: silver;
+	width: 48%;	
 }
 
 header {
+	clear: both;	
 	margin: 0.5em auto;	
 	font-style: italic;
 	text-align: center;
+	color: rgba(178, 224, 46, 1);
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+	filter: dropshadow(color=#ffffff, offx=1, offy=1);	
 }
 
 header h1 {
 	font-family: 'Lobster Two', cursive;
 	font-weight: 700;
 	margin: 0.5em 0;
-}
-
-#h5c3-3boxes-main {
-	clear: right;
 }
 
 #h5c3-3boxes-main figure img {
@@ -80,6 +78,11 @@ header h1 {
 
 #h5c3-3boxes-main figure.content-main {
 	overflow: hidden;
+}
+
+footer {
+	font-size: 0.85em;
+	font-style: italic; 
 }
 
 .monospace {

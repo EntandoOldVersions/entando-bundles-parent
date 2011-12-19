@@ -7,6 +7,7 @@ INSERT INTO `EntandoPort`.`pagemodels` VALUES ('entando-page-h5c3-3boxes','3 Box
 	</frame>
 	<frame pos="1">
 		<descr>Header - Top II</descr>
+		<defaultShowlet code="entando-showlet-search_form" />
 	</frame>
 	<frame pos="2">
 		<descr>Header - Bottom Right</descr>

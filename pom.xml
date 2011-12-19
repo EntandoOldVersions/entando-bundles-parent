@@ -27,7 +27,8 @@
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
 	<modules>
 		<module>entando-bundles-misc/entando-misc-html5-essentials</module>
-		<module>entando-bundles-showlets/entando-showlet-language_choose</module>		
+		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
+		<module>entando-bundles-showlets/entando-showlet-search_form</module>
 		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
 	</modules>
 	<properties>
