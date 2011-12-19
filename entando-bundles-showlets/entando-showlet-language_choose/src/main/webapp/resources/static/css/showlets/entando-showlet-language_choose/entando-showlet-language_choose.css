@@ -33,7 +33,8 @@
 	-webkit-transition: background 200ms ease-in-out;
 	-moz-transition: background 200ms ease-in-out;
 	-o-transition: background 200ms ease-in-out;
-	transition: background 200ms ease-in-out;	
+	transition: background 200ms ease-in-out;
+	border-bottom: none;
 }
 
 .entando-showlet-language_choose li .current,
