@@ -45,3 +45,23 @@
 	max-width: 100%;
 	vertical-align: middle;
 }
+
+/****
+ * Responsiveness
+ ****/
+
+@media screen and (min-width: 1024px) {
+
+	.entando-showlet-search_form {
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+	
+	.entando-showlet-search_form input[type="image"] {
+		margin: 0 0 2px 0;
+		padding: 0 0 0 0.5em;
+		border: none;
+		max-width: 100%;
+		vertical-align: middle;
+	}	
+	
+}
