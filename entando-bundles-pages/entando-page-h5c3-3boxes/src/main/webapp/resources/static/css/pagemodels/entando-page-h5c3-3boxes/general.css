@@ -30,6 +30,7 @@ h2, h3 {
 
 p, li, h4, h5, h6, td, th, dt, dd {
 	font-size: 1em;
+	line-height: 1.2;
 }
 
 a:link,

@@ -11,12 +11,12 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-page-h5c3-3boxes</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>Three boxes, dark style.</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
