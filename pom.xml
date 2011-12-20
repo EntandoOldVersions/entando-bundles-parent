@@ -31,6 +31,7 @@
 		<module>entando-bundles-showlets/entando-showlet-search_form</module>
 		<module>entando-bundles-showlets/entando-showlet-navigation_menu</module>		
 		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
+		<module>entando-bundles-pages/entando-page-h5c3-whitey</module>
 	</modules>
 	<properties>
 	</properties>	
