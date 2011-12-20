@@ -9,7 +9,8 @@
 	padding: 0.25em 0;
 }
 
-.entando-showlet-navigation_menu li a {
+.entando-showlet-navigation_menu li a,
+.entando-showlet-navigation_menu li .current {
 	display: block;
 	padding: 0.25em;
 }
@@ -46,7 +47,8 @@
 		display: inline-block;
 	}
 
-	nav .entando-showlet-navigation_menu li a {
+	nav .entando-showlet-navigation_menu li a,
+	nav .entando-showlet-navigation_menu li .current {
 		padding: 0.5em;
 		display: inline-block;
 	}
