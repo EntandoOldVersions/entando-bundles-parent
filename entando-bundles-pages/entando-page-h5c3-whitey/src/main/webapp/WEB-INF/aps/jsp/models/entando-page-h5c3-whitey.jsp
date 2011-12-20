@@ -63,8 +63,12 @@
 </head>
 <body>
 <section id="h5c3-whitey-toolbar">
-	<wp:show frame="0" />
-	<wp:show frame="1" />
+	<div>
+		<wp:show frame="0" />
+	</div>
+	<div>
+		<wp:show frame="1" />
+	</div>
 </section>
 
 <header>
@@ -118,6 +122,9 @@
 </section>
 
 <footer>
+	<p>
+		Copyright &copy; Fake LLC &mdash; established 1896
+	</p>
 	<wp:show frame="13" />
 	<wp:show frame="14" />
 	<wp:show frame="15" />
