@@ -198,6 +198,7 @@ footer {
 		-webkit-box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.4);
 		-moz-box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.4);
 		box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.4);
+		text-align: center;
 	}
 	
 	footer section {
@@ -270,7 +271,8 @@ footer {
 	
 	nav {
 		margin-top: 0;
-		padding: 0;		
+		padding: 0;
+		text-align: right;
 	}
 	
 	header h1,
