@@ -95,17 +95,27 @@
 				Vegan fap wayfarers organic, gentrify raw denim DIY marfa farm-to-table messenger bag you probably haven't heard of them.
 			</p>
 			<p>
-				8-bit jean shorts blog, scenester locavore messenger bag viral squid beard keffiyeh wolf. 
-				Bicycle rights Austin keffiyeh tumblr food truck, hoodie lo-fi.
-				Twee thundercats chambray organic photo booth. Vegan portland butcher pitchfork Austin american apparel, quinoa salvia scenester next level. 
-				Seitan synth four loko jean shorts art party, freegan brunch messenger bag PBR leggings letterpress helvetica keffiyeh.
-				Pitchfork salvia Austin leggings echo park you probably haven't heard of them portland, +1 mlkshk american apparel master cleanse tofu scenester tumblr banksy.
-			</p>
-			<p>
 				Put a bird on it beard messenger bag irony art party echo park.
 			</p>
 		</article>
 	<!-- content model ends here -->
+	<!-- content model starts here -->
+		<article>
+			<h2>Second ipsum</h2>
+			<p>
+				Put a bird on it beard messenger bag irony art party echo park.
+			</p>
+			<p>
+				Helvetica sustainable pitchfork organic, blog mustache shoreditch DIY biodiesel messenger bag stumptown high life +1 8-bit lomo.<br />
+				Terry richardson twee gentrify, cred next level williamsburg retro craft beer chambray.
+			</p>
+			<p>
+				Cred cosby sweater tumblr etsy hoodie brunch.<br />
+				Lomo brunch echo park single-origin coffee blog. Pitchfork vinyl twee +1 organic. VHS banh mi 3 wolf moon aesthetic +1. 
+				Vegan fap wayfarers organic, gentrify raw denim DIY marfa farm-to-table messenger bag you probably haven't heard of them.
+			</p>
+		</article>
+	<!-- content model ends here -->	
 		<wp:show frame="3" />
 		<wp:show frame="4" />
 		<wp:show frame="5" />
