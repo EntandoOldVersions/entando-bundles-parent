@@ -27,6 +27,7 @@
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
 	<modules>
 		<module>entando-bundles-misc/entando-misc-less</module>
+		<module>entando-bundles-misc/entando-misc-jquery</module>
 		<module>entando-bundles-misc/entando-misc-bootstrap</module>
 		<!--
 		<module>entando-bundles-misc/entando-misc-html5-essentials</module>
