@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
 	<artifactId>entando-bundles-parent</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>3.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
 	<url>http://www.entando.com/</url>
