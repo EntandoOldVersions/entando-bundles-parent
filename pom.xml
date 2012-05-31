@@ -27,6 +27,7 @@
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
 	<modules>
 		<module>entando-bundles-misc/entando-misc-less</module>
+		<module>entando-bundles-misc/entando-misc-bootstrap</module>
 		<!--
 		<module>entando-bundles-misc/entando-misc-html5-essentials</module>
 		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
@@ -35,7 +36,7 @@
 		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
 		<module>entando-bundles-pages/entando-page-h5c3-whitey</module>
 		-->
-	</modules>
+  </modules>
 	<properties>
 	</properties>	
 	<build>
@@ -163,7 +164,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute />
+										<execute/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
