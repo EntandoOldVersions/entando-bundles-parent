@@ -1,39 +1,57 @@
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
 <wp:headInfo type="CSS" info="showlets/entando-showlet-navigation_menu/entando-showlet-navigation_menu.css" />
+<wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.7.2.min.js" />
+<wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
+<%-- 
+	submenus kindly provided by: 
+	Venu Duggireddy ( https://plus.google.com/115676846791337851843/posts )
+	http://jsfiddle.net/4nMkh/4/
+--%>
+<c:set var="js_raw_code">
+$(document).ready(function() {
+	$('.submenu').hover(function () {
+		$(this).children('ul').removeClass('submenu-hide').addClass('submenu-show');
+	}, function () {
+		$(this).children('ul').removeClass('.submenu-show').addClass('submenu-hide');
+	}).find("a:first").append(" &raquo; ");
+});
+</c:set>
+<wp:headInfo type="JS_RAW" info="${js_raw_code}" />
 
-<c:set var="prev" value="-1" scope="page" />
-<wp:currentPage param="code" var="currentViewCode" />
-<c:set var="startClosing" value="0" />	
+<wp:currentPage param="code" var="currentPageCode" />
+<c:set var="currentPageCode" value="${currentPageCode}" scope="request" />
 
-<div class="entando-showlet-navigation_menu">
-	<ul class="menuRoot">
-	<wp:nav var="currentTarget">
-		<c:set var="current" scope="page"><c:out value="${currentTarget.level}" /></c:set>
-		<c:set var="currentCode" scope="page"><c:out value="${currentTarget.code}" /></c:set>
-		
-			<c:if test="${current == prev}"></li></c:if>
-			<c:if test="${current < prev}"></li></ul></li></c:if>
-			<c:if test="${(current > prev) && (current != 0)}"><ul></c:if>	
-			
-			<c:choose>
-				<c:when test="${!currentTarget.voidPage}">		
-					<c:choose>
-						<c:when test="${currentCode == currentViewCode}"><li><span class="current"><c:out value="${currentTarget.title}" /></span></c:when>
-						<c:otherwise><li><span><a href="<c:out value="${currentTarget.url}" />"><c:out value="${currentTarget.title}" /></a></span></c:otherwise>
-					</c:choose>
-				</c:when>
-				<c:otherwise>
-						<li><span class="title"><c:out value="${currentTarget.title}" /></span>
-				</c:otherwise>
-			</c:choose>
-			<c:set var="prev" scope="page"><c:out value="${currentTarget.level}" /></c:set>
-			
-	</wp:nav>
-	<c:if test="${prev==0}"></li></ul></c:if>
-	<c:if test="${prev<0}"></ul></c:if>
-	<c:if test="${prev>0}">
-	<c:forEach begin="${startClosing}" end="${prev}" ></li></ul></c:forEach> 
+<ul class="nav">
+<wp:nav var="page">
+
+<c:if test="${previousPage.code != null}">
+	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
+	<c:set var="level" value="${page.level}" scope="request" />
+	<jsp:include page="entando-showlet-navigation_menu_include.jsp" />
+
+</c:if>	
+
+	<c:set var="previousPage" value="${page}" scope="request" />
+</wp:nav>
+
+	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
+	<c:set var="level" value="${0}"  scope="request" /> <%-- we are out, level is 0 --%>
+	<jsp:include page="entando-showlet-navigation_menu_include.jsp" />
+
+	<c:if test="${previousLevel >= 2}">
+		<%-- 
+		previousLevel - 2 : 
+			1 because we're starting from 0, 
+			1 because we skipped 1 cycle in this whole algorithm and previousLevel did not get the last update 
+		--%>
+		<c:set var="endHere" value="${previousLevel - 2}" />
 	</c:if>
-</div>
+
+	<c:if test="${previousLevel < 2}">
+		<c:set var="endHere" value="${previousLevel}" />
+	</c:if>
+
+	<c:forEach begin="${0}" end="${endHere}"></ul></li></c:forEach>
+
+</ul>

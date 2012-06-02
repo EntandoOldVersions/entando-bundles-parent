@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.entando.entando.bundles</groupId>
 		<artifactId>entando-bundles-parent</artifactId>
+		<groupId>org.entando.entando.bundles</groupId>
 		<version>3.0.1-SNAPSHOT</version>
 	</parent>	
-	<artifactId>entando-showlet-navigation_menu</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-page-bootstrap-hero</artifactId>
+	<groupId>org.entando.entando.bundles.pages</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-navigation_menu</name>
+	<name>Entando Bundle: entando-page-bootstrap-hero</name>
 	<description>CHANGE ME! Write some quick and useful info.</description>
 	<developers>
 		<developer>
@@ -68,6 +68,45 @@
 			<version>3.0.1-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
-		</dependency>		
-	</dependencies>	
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-language_choose</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>war</type>	
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-language_choose</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>zip</type>
+			<classifier>misc</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-search_form</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>war</type>	
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-search_form</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>zip</type>
+			<classifier>misc</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-navigation_menu</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>war</type>	
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-navigation_menu</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>zip</type>
+			<classifier>misc</classifier>
+		</dependency>
+	</dependencies>		
 </project>
