@@ -1,31 +1,33 @@
-INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-h5c3-3boxes', '3 Boxes', '<frames>
+INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-bootstrap-hero', 'Boostrap - Hero Unit', '<frames>
 	<frame pos="0">
-		<descr>Header - Top I</descr>
+		<descr>Navbar 1</descr>
 		<defaultShowlet code="entando-showlet-language_choose" />
 	</frame>
 	<frame pos="1">
-		<descr>Header - Top II</descr>
-		<defaultShowlet code="entando-showlet-search_form" />
+		<descr>Navbar 2</descr>
+		<defaultShowlet code="entando-showlet-navigation_menu" />
 	</frame>
 	<frame pos="2">
-		<descr>Header - Bottom Right</descr>
-		<defaultShowlet code="entando-showlet-navigation_menu" />
+		<descr>Navbar 3</descr>
+		<defaultShowlet code="entando-showlet-search_form" />
 	</frame>
 	<frame pos="3" main="true">
-		<descr>Box I</descr>
+		<descr>Navbar 4</descr>
+		<defaultShowlet code="entando-showlet-login_form" />
 	</frame>
 	<frame pos="4">
-		<descr>Box 2</descr>
+		<descr>Hero Unit</descr>
 	</frame>
 	<frame pos="5">
-		<descr>Box 3</descr>
+		<descr>Box 1</descr>
 	</frame>
 	<frame pos="6">
-		<descr>Footer Left</descr>
-		<defaultShowlet code="entando-showlet-navigation_menu" />
+		<descr>Box 2</descr>
 	</frame>
 	<frame pos="7">
-		<descr>Footer Right</descr>
-		<defaultShowlet code="entando-showlet-navigation_menu" />
-	</frame>	
+		<descr>Box 3</descr>
+	</frame>
+	<frame pos="7">
+		<descr>Footer</descr>
+	</frame>		
 </frames>', NULL);
