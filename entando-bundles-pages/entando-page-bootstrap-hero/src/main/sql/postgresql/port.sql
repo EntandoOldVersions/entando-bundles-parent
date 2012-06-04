@@ -5,7 +5,11 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	</frame>
 	<frame pos="1">
 		<descr>Navbar 2</descr>
-		<defaultShowlet code="entando-showlet-navigation_menu" />
+		<defaultShowlet code="entando-showlet-navigation_menu">
+			<properties>
+				<property key="navSpec">code(homepage)</property>
+			</properties>
+		</defaultShowlet>		
 	</frame>
 	<frame pos="2">
 		<descr>Navbar 3</descr>

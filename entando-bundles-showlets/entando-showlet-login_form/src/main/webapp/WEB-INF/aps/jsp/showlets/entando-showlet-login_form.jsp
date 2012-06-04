@@ -9,7 +9,7 @@
 			<ul class="dropdown-menu well-small">
 				<li>	
 					<p class="help-block">
-						<wp:i18n key="WELCOME" />,&nbsp;<c:out value="${sessionScope.currentUser}"/>!
+						<wp:i18n key="ESLF_WELCOME" />,&nbsp;<c:out value="${sessionScope.currentUser}"/>!
 					</p>
 					<%--
 					<div class="divider"></div>
@@ -19,43 +19,43 @@
 					--%>
 					<wp:ifauthorized permission="enterBackend">
 					<p>
-						<a href="<wp:info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<wp:info key="currentLang" />&amp;backend_client_gui=advanced"><span class="icon-wrench"></span> <wp:i18n key="ADMINISTRATION" /></a>
+						<a href="<wp:info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<wp:info key="currentLang" />&amp;backend_client_gui=advanced"><span class="icon-wrench"></span> <wp:i18n key="ESLF_ADMINISTRATION" /></a>
 					</p>
 					</wp:ifauthorized>
 					<div class="divider"></div>
 					<p class="help-block text-right">
-						<a class="btn" href="<wp:info key="systemParam" paramName="applicationBaseURL" />do/logout.action"><wp:i18n key="LOGOUT" /></a>
+						<a class="btn" href="<wp:info key="systemParam" paramName="applicationBaseURL" />do/logout.action"><wp:i18n key="ESLF_SIGNOUT" /></a>
 					</p>
 				</li>
 			</ul>
 		</c:when>
 		<c:otherwise>
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><wp:i18n key="LOGIN" /> <span class="caret"></span></a>
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><wp:i18n key="ESLF_SIGNIN" /> <span class="caret"></span></a>
 			<ul class="dropdown-menu well-small">
 				<li>
 					<form class="form-vertical">
 						<c:if test="${accountExpired}">
 						<div class="alert alert-error">
-							<button class="close" data-dismiss="alert">×</button>
-							<wp:i18n key="USER_STATUS_EXPIRED" />
+							<button class="close" data-dismiss="alert">x</button>
+							<wp:i18n key="ESLF_USER_STATUS_EXPIRED" />
 						</div>
 						</c:if>
 						<c:if test="${wrongAccountCredential}">
 						<div class="alert alert-error">
-							<button class="close" data-dismiss="alert">×</button>
-							<wp:i18n key="USER_STATUS_CREDENTIALS_INVALID" />
+							<button class="close" data-dismiss="alert">x</button>
+							<wp:i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
 						</div>
 						</c:if>						
 
-						<input type="text" name="username" class="input-large" placeholder="<wp:i18n key="USERNAME" />">
-						<input type="password" name="password" class="input-large" placeholder="<wp:i18n key="PASSWORD" />">
+						<input type="text" name="username" class="input-large" placeholder="<wp:i18n key="ESLF_USERNAME" />">
+						<input type="password" name="password" class="input-large" placeholder="<wp:i18n key="ESLF_PASSWORD" />">
 						<%--
 						<label class="checkbox">
 							<input type="checkbox">Mantieni l'accesso
 						</label>
 						--%>
 						<p class="text-right">
-							<input type="submit" class="btn btn-primary" value="<wp:i18n key="LOGIN" />" />
+							<input type="submit" class="btn btn-primary" value="<wp:i18n key="ESLF_SIGNIN" />" />
 						</p>
 					</form>
 					<%--
