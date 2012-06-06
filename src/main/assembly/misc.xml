@@ -15,5 +15,12 @@
 			</includes>
 			<outputDirectory>sql</outputDirectory>
 		</fileSet>
+		<fileSet>
+			<directory>${basedir}/src/main/doc/template/${artifactId}</directory>
+			<includes>
+				<include>**/*.*</include>
+			</includes>
+			<outputDirectory>rest</outputDirectory>
+		</fileSet>		
 	</fileSets>
 </assembly>
