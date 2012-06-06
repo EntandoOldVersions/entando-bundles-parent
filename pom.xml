@@ -33,7 +33,8 @@
 		<module>entando-bundles-showlets/entando-showlet-navigation_menu</module>		
 		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
 		<module>entando-bundles-showlets/entando-showlet-search_form</module>
-		<module>entando-bundles-showlets/entando-showlet-login_form</module>		
+		<module>entando-bundles-showlets/entando-showlet-login_form</module>
+		<module>entando-bundles-contents/entando-content-generic</module>		
 		<module>entando-bundles-pages/entando-page-bootstrap-hero</module>
 		<!--
 		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
