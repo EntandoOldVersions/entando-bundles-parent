@@ -15,11 +15,11 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 		<descr>Navbar 3</descr>
 		<defaultShowlet code="entando-showlet-search_form" />
 	</frame>
-	<frame pos="3" main="true">
+	<frame pos="3">
 		<descr>Navbar 4</descr>
 		<defaultShowlet code="entando-showlet-login_form" />
 	</frame>
-	<frame pos="4">
+	<frame pos="4" main="true">
 		<descr>Hero Unit</descr>
 	</frame>
 	<frame pos="5">
@@ -31,7 +31,7 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	<frame pos="7">
 		<descr>Box 3</descr>
 	</frame>
-	<frame pos="7">
+	<frame pos="8">
 		<descr>Footer</descr>
 	</frame>		
 </frames>', NULL);
