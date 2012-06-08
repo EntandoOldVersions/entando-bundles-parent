@@ -23,5 +23,20 @@
 			</headers>
 			<entity file="CNG.xml" />
 		</http>
+
+		<http 
+			url="http://localhost:8080/${webappname}/api/rs/en/jacms/content" 
+			method="POST"
+			expected="200"
+			printresponse="true" >
+			<query>
+				<parameter name="insertOnLine" value="true" />
+			</query>
+			<headers>
+				<header name="Content-Type" value="application/xml" />
+			</headers>
+			<entity file="content1.xml" />
+		</http>
+
 	</target>
 </project>
