@@ -6,10 +6,10 @@
 		<groupId>org.entando.entando.bundles</groupId>
 		<version>3.0.1-SNAPSHOT</version>
 	</parent>	
-	<artifactId>entando-page-bootstrap-hero</artifactId>
+	<artifactId>entando-page-2columns-left</artifactId>
 	<groupId>org.entando.entando.bundles.pages</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-page-bootstrap-hero</name>
+	<name>Entando Bundle: entando-page-2columns-left</name>
 	<description>CHANGE ME! Write some quick and useful info.</description>
 	<developers>
 		<developer>
@@ -134,5 +134,5 @@
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
-	</dependencies>
+	</dependencies>	
 </project>

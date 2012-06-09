@@ -24,11 +24,6 @@
 
 <body>
 
-	<%-- 
-		FIXME!!!
-		Here proper markup + showlets 
-	--%>
-
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -52,85 +47,89 @@
 
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<div class="row">
-			<wp:show frame="4" />
-		</div>
-
-		<div class="row">
-			<div class="span12">
+			<div class="span4">
+				<wp:show frame="4" />
 				<wp:show frame="5" />
-			</div>
-		</div>
-
-		<!-- Example row of columns -->
-		<div class="row">
-			<div class="span4">
 				<wp:show frame="6" />
-			</div>
-			<div class="span4">
 				<wp:show frame="7" />
+				<wp:show frame="8" />				
 			</div>
-			<div class="span4">
-				<wp:show frame="8" />
-			</div>
-		</div>		
+			<div class="span8">
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="9" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span4">
+						<wp:show frame="10" />
+					</div>
+					<div class="span4">
+						<wp:show frame="11" />
+					</div>
+					<div class="span4">
+						<wp:show frame="12" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span6">
+						<wp:show frame="13" />
+					</div>
+					<div class="span6">
+						<wp:show frame="14" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span6">
+						<wp:show frame="15" />
+					</div>
+					<div class="span6">
+						<wp:show frame="16" />
+					</div>
+				</div>			
 
-		<div class="row">
-			<div class="span6">
-				<wp:show frame="9" />
-			</div>
-			<div class="span6">
-				<wp:show frame="10" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span6">
-				<wp:show frame="11" />
-			</div>
-			<div class="span6">
-				<wp:show frame="12" />
-			</div>
-		</div>			
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="17" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="18" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="19" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="20" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span12">
+						<wp:show frame="21" />
+					</div>
+				</div>															
 
-		<div class="row">
-			<div class="span12">
-				<wp:show frame="13" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12">
-				<wp:show frame="14" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12">
-				<wp:show frame="15" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12">
-				<wp:show frame="16" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span12">
-				<wp:show frame="17" />
-			</div>
-		</div>															
-
-		<div class="row">
-			<div class="span6">
-				<wp:show frame="18" />
-			</div>
-			<div class="span6">
-				<wp:show frame="19" />
-			</div>
-		</div>
-		<div class="row">
-			<div class="span6">
-				<wp:show frame="20" />
-			</div>
-			<div class="span6">
-				<wp:show frame="21" />
+				<div class="row">
+					<div class="span6">
+						<wp:show frame="22" />
+					</div>
+					<div class="span6">
+						<wp:show frame="23" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="span6">
+						<wp:show frame="24" />
+					</div>
+					<div class="span6">
+						<wp:show frame="25" />
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -138,11 +137,11 @@
 
 		<footer>
 			<p>&copy; Company 2012</p>
-			<wp:show frame="22" />
-			<wp:show frame="23" />
-			<wp:show frame="24" />
-			<wp:show frame="25" />
 			<wp:show frame="26" />
+			<wp:show frame="27" />
+			<wp:show frame="28" />
+			<wp:show frame="29" />
+			<wp:show frame="30" />
 		</footer>
 
 	</div> <!-- /container -->

@@ -6,10 +6,10 @@
 		<artifactId>entando-bundles-parent</artifactId>
 		<version>3.0.1-SNAPSHOT</version>
 	</parent>	
-	<artifactId>entando-showlet-navigation_menu</artifactId>
+	<artifactId>entando-showlet-navigation_bar</artifactId>
 	<groupId>org.entando.entando.bundles.showlets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-navigation_menu</name>
+	<name>Entando Bundle: entando-showlet-navigation_bar</name>
 	<description>CHANGE ME! Write some quick and useful info.</description>
 	<developers>
 		<developer>

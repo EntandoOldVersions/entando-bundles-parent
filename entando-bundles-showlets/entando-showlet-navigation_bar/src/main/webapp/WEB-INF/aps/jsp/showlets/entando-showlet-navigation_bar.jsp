@@ -1,6 +1,6 @@
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<wp:headInfo type="CSS" info="showlets/entando-showlet-navigation_menu/entando-showlet-navigation_menu.css" />
+<wp:headInfo type="CSS" info="showlets/entando-showlet-navigation_bar/entando-showlet-navigation_bar.css" />
 <wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.7.2.min.js" />
 <wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 <%-- 
@@ -28,7 +28,7 @@ $(document).ready(function() {
 <c:if test="${previousPage.code != null}">
 	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
 	<c:set var="level" value="${page.level}" scope="request" />
-	<jsp:include page="entando-showlet-navigation_menu_include.jsp" />
+	<jsp:include page="entando-showlet-navigation_bar_include.jsp" />
 
 </c:if>	
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
 	<c:set var="level" value="${0}"  scope="request" /> <%-- we are out, level is 0 --%>
-	<jsp:include page="entando-showlet-navigation_menu_include.jsp" />
+	<jsp:include page="entando-showlet-navigation_bar_include.jsp" />
 
 	<c:if test="${previousLevel >= 2}">
 		<%-- 
