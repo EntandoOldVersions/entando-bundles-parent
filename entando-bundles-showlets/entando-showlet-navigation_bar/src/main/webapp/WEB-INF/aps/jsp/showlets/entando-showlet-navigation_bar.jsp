@@ -20,24 +20,23 @@ $(document).ready(function() {
 <wp:headInfo type="JS_RAW" info="${js_raw_code}" />
 
 <wp:currentPage param="code" var="currentPageCode" />
-<c:set var="currentPageCode" value="${currentPageCode}" scope="request" />
+<c:set var="currentPageCode" value="${currentPageCode}" />
 
 <ul class="nav">
 <wp:nav var="page">
 
 <c:if test="${previousPage.code != null}">
-	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
-	<c:set var="level" value="${page.level}" scope="request" />
-	<jsp:include page="entando-showlet-navigation_bar_include.jsp" />
-
+	<c:set var="previousLevel" value="${previousPage.level}" />
+	<c:set var="level" value="${page.level}" />
+	<%@ include file="entando-showlet-navigation_bar_include.jsp" %>
 </c:if>	
 
-	<c:set var="previousPage" value="${page}" scope="request" />
+	<c:set var="previousPage" value="${page}" />
 </wp:nav>
 
-	<c:set var="previousLevel" value="${previousPage.level}" scope="request" />
-	<c:set var="level" value="${0}"  scope="request" /> <%-- we are out, level is 0 --%>
-	<jsp:include page="entando-showlet-navigation_bar_include.jsp" />
+	<c:set var="previousLevel" value="${previousPage.level}" />
+	<c:set var="level" value="${0}"  /> <%-- we are out, level is 0 --%>
+	<%@ include file="entando-showlet-navigation_bar_include.jsp" %>
 
 	<c:if test="${previousLevel >= 2}">
 		<%-- 
@@ -52,6 +51,8 @@ $(document).ready(function() {
 		<c:set var="endHere" value="${previousLevel}" />
 	</c:if>
 
-	<c:forEach begin="${0}" end="${endHere}"></ul></li></c:forEach>
+	<c:if test="${endHere != 0}">
+		<c:forEach begin="${0}" end="${endHere}"></ul></li></c:forEach>
+	</c:if>
 
 </ul>

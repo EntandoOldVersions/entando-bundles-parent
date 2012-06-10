@@ -47,86 +47,86 @@
 
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<div class="row">
-			<div class="span4">
+			<div class="span3">
 				<wp:show frame="4" />
 				<wp:show frame="5" />
 				<wp:show frame="6" />
 				<wp:show frame="7" />
 				<wp:show frame="8" />				
 			</div>
-			<div class="span8">
+			<div class="span9">
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="9" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span4">
+					<div class="span3">
 						<wp:show frame="10" />
 					</div>
-					<div class="span4">
+					<div class="span3">
 						<wp:show frame="11" />
 					</div>
-					<div class="span4">
+					<div class="span3">
 						<wp:show frame="12" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span6">
+					<div class="span4">
 						<wp:show frame="13" />
 					</div>
-					<div class="span6">
+					<div class="span4 offset1">
 						<wp:show frame="14" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span6">
+					<div class="span4">
 						<wp:show frame="15" />
 					</div>
-					<div class="span6">
+					<div class="span4 offset1">
 						<wp:show frame="16" />
 					</div>
 				</div>			
 
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="17" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="18" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="19" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="20" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span12">
+					<div class="span9">
 						<wp:show frame="21" />
 					</div>
 				</div>															
 
 				<div class="row">
-					<div class="span6">
+					<div class="span4">
 						<wp:show frame="22" />
 					</div>
-					<div class="span6">
+					<div class="span4 offset1">
 						<wp:show frame="23" />
 					</div>
 				</div>
 				<div class="row">
-					<div class="span6">
+					<div class="span4">
 						<wp:show frame="24" />
 					</div>
-					<div class="span6">
+					<div class="span4 offset1">
 						<wp:show frame="25" />
 					</div>
 				</div>

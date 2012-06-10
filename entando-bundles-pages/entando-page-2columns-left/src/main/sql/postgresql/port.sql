@@ -21,6 +21,11 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-2
 	</frame>
 	<frame pos="4">
 		<descr>Left 1</descr>
+		<defaultShowlet code="entando-showlet-navigation_menu">
+			<properties>
+				<property key="navSpec">code(homepage).subtree(1)</property>
+			</properties>
+		</defaultShowlet>		
 	</frame>
 	<frame pos="5">
 		<descr>Left 2</descr>

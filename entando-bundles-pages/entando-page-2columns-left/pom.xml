@@ -110,6 +110,19 @@
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-navigation_menu</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>war</type>	
+		</dependency>
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
+			<artifactId>entando-showlet-navigation_menu</artifactId>
+			<version>3.0.1-SNAPSHOT</version>
+			<type>zip</type>
+			<classifier>misc</classifier>
+		</dependency>		
+		<dependency>
+			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-login_form</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
 			<type>war</type>	
