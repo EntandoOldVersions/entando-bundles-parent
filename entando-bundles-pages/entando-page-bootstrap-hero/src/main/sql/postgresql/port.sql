@@ -1,4 +1,4 @@
-INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-bootstrap-hero', 'Boostrap - Hero Unit', '<frames>
+INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-bootstrap-hero', 'Bootstrap - Hero Unit', '<frames>
 	<frame pos="0">
 		<descr>Navbar 1</descr>
 		<defaultShowlet code="entando-showlet-language_choose" />
