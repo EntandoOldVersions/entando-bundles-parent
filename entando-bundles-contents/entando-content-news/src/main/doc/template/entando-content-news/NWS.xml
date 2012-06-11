@@ -1,7 +1,7 @@
 <contentType>
 	<defaultModelId>10002</defaultModelId>
 	<listModelId>10021</listModelId>
-	<typeCode>NEW</typeCode>
+	<typeCode>NWS</typeCode>
 	<typeDescription>News</typeDescription>
 	<attributes>
 		<attribute>

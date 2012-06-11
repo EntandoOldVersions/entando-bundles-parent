@@ -2,7 +2,8 @@
 -- change the x to something suitable and unused
 -- set the last column to NULL if your Content Model doesn't need any stylesheet at all
 -- You'll want to provide at least one Default Content Model, and one Content Model for lists
-INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10001, 'CNG', 'Full - Default', '<h1>$content.Title.text</h1>
+INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10001, 'CNG', 'Full - Default', '<article>
+	<h1>$content.Title.text</h1>
 #if ( $content.Picture.getImagePath("0") != "" )
 <figure class="well well-small text-center">
 	<img src="$content.Picture.getImagePath("0")" alt="$content.Picture.text" />
@@ -29,6 +30,7 @@ $content.MainBody.text
 		<li><a href="$item.destination">$item.text</a></li>
 	#end
 	</ul>
+	</article>
 #end', NULL);
 
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_ATTACHMENTS', 'en', 'Attachments');
@@ -37,16 +39,19 @@ INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_ATTACHMENT
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_LINKS', 'en', 'Links');
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_LINKS', 'it', 'Link');
 
-INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10011, 'CNG', 'Lists - Default', '<h2>$content.Title.text</h2>
+INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10011, 'CNG', 'Lists - Default', '<article>
+	<h2>$content.Title.text</h2>
 #if ( $content.Abstract.text != "" )
 	$content.Abstract.text
 #end
-<p><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>', NULL);
+<p class="text-right"><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
+</article>', NULL);
 
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_READ_MORE', 'en', 'View details &raquo;');
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('CNG_READ_MORE', 'it', 'Continua &raquo;');
 
-INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10012, 'CNG', 'Hero Unit + Picture', '<div class="hero-unit span6">
+INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10012, 'CNG', 'Hero Unit + Picture', '<article>
+	<div class="hero-unit span6">
 	<h1>$content.Title.text</h1>
 	#if ( $content.Abstract.text != "" )
 	$content.Abstract.text
@@ -66,9 +71,11 @@ INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUE
 </figure>
 </div>
 #end
+</article>
 ', NULL);
 
-INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10013, 'CNG', 'Lists - Picture', '<h2>$content.Title.text</h2>
+INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10013, 'CNG', 'Lists - Picture', '<article>
+	<h2>$content.Title.text</h2>
 #if ( $content.Picture.getImagePath("0") != "" )
 <figure>
 	<img src="$content.Picture.getImagePath("0")" alt="$content.Picture.text" />
@@ -77,5 +84,5 @@ INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUE
 	#end
 </figure>
 #end
-<p><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
-', NULL);
+<p class="text-right"><a class="btn" href="$content.contentLink">$i18n.getLabel("CNG_READ_MORE")</a></p>
+</article>', NULL);
