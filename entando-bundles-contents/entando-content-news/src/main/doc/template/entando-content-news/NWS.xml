@@ -1,9 +1,17 @@
 <contentType>
-	<defaultModelId>10001</defaultModelId>
-	<listModelId>10011</listModelId>
-	<typeCode>CNG</typeCode>
-	<typeDescription>Generic Content</typeDescription>
+	<defaultModelId>10002</defaultModelId>
+	<listModelId>10021</listModelId>
+	<typeCode>NEW</typeCode>
+	<typeDescription>News</typeDescription>
 	<attributes>
+		<attribute>
+			<name>Date</name>
+			<type>Date</type>
+			<searchable>true</searchable>
+			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dateAttributeValidationRules">
+				<required>true</required>
+			</validationRules>
+		</attribute>
 		<attribute>
 			<name>Title</name>
 			<type>Text</type>
