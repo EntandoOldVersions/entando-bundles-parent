@@ -2,6 +2,13 @@
 -- change the x to something suitable and unused
 -- set the last column to NULL if your Content Model doesn't need any stylesheet at all
 -- You'll want to provide at least one Default Content Model, and one Content Model for lists
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_ATTACHMENTS', 'en', 'Attachments');
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_ATTACHMENTS', 'it', 'Allegati');
+
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_LINKS', 'en', 'Links');
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_LINKS', 'it', 'Link');
+
+
 INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUES (10002, 'NWS', 'Full - Default', '<article>
 	<p class="text-right"><time class="label" datetime="$content.Date.shortDate">$content.Date.getFormattedDate("EEEE dd MMMM yyyy")</time></p>    
 	<h1>$content.Title.text</h1>
@@ -17,7 +24,7 @@ INSERT INTO contentmodels (modelid, contenttype, descr, model, stylesheet) VALUE
 $content.MainBody.text
 #end
 #if ($content.Attaches.size()>0)
-	<h2>$i18n.getLabel("CNG_ATTACHMENTS")</h2>
+	<h2>$i18n.getLabel("NWS_ATTACHMENTS")</h2>
 	<ul>
 	#foreach ($item in $content.Attaches )
 		<li><a href="$item.attachPath">$item.text</a></li>
@@ -25,7 +32,7 @@ $content.MainBody.text
 	</ul>
 #end
 #if ($content.Links.size()>0)
-	<h2>$i18n.getLabel("CNG_LINKS")</h2>
+	<h2>$i18n.getLabel("NWS_LINKS")</h2>
 	<ul>
 	#foreach ($item in $content.Links)
 		<li><a href="$item.destination">$item.text</a></li>
