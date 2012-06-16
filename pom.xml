@@ -37,7 +37,8 @@
 		<module>entando-bundles-showlets/entando-showlet-login_form</module>
 		<module>entando-bundles-contents/entando-content-generic</module>
 		<module>entando-bundles-contents/entando-content-news</module>
-		<module>entando-bundles-contents/entando-content-download</module>		
+		<module>entando-bundles-contents/entando-content-download</module>
+		<module>entando-bundles-contents/entando-content-resolution</module>		
 		<module>entando-bundles-pages/entando-page-bootstrap-hero</module>
 		<module>entando-bundles-pages/entando-page-2columns-left</module>
 		<!--
