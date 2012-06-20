@@ -1,0 +1,55 @@
+<contentType>
+	<defaultModelId>5</defaultModelId>
+	<listModelId>51</listModelId>
+	<typeCode>ANN</typeCode>
+	<typeDescription>Announcement</typeDescription>
+	<attributes>
+		<attribute>
+			<name>Title</name>
+			<type>Longtext</type>
+			<roles>
+				<role>jacms:title</role>
+			</roles>
+			<indexable>true</indexable>
+			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="textAttributeValidationRules">
+				<required>true</required>
+			</validationRules>
+		</attribute>
+		<attribute>
+			<name>StartDate</name>
+			<type>Date</type>
+			<searchable>true</searchable>
+			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dateAttributeValidationRules">
+			<ognlValidationRule>
+				<errorMessage>StartDate must not be set to Today or the past.</errorMessage>
+				<evalExpressionOnValuedAttribute>true</evalExpressionOnValuedAttribute>
+				<expression>#attribute.date.after(new java.util.Date())</expression>
+				<helpMessage>StartDate must be set to Tomorrow or the future.</helpMessage>
+			</ognlValidationRule>
+			<required>true</required>
+			</validationRules>
+		</attribute>
+		<attribute>
+			<name>EndDate</name>
+			<type>Date</type>
+			<searchable>true</searchable>
+			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dateAttributeValidationRules">
+			<required>true</required>
+				<rangeStartAttribute>StartDate</rangeStartAttribute>
+			</validationRules>
+		</attribute>
+		<attribute>
+			<name>Summary</name>
+			<type>Hypertext</type>
+			<indexable>true</indexable>
+		</attribute>
+		<attribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jaxbListAttributeType">
+			<name>Documents</name>
+			<type>Monolist</type>
+			<nestedType>
+				<name>Documents</name>
+				<type>Attach</type>
+			</nestedType>
+		</attribute>
+	</attributes>
+</contentType>
