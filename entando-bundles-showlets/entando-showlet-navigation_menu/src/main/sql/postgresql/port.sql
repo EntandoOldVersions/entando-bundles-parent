@@ -2,4 +2,7 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <properties>
 <property key="en">Navigation - Vertical Menu</property>
 <property key="it">Navigazione - Menù Verticale</property>
-</properties>', NULL, NULL, NULL, NULL, 1, NULL);
+</properties>', '<config>
+	<parameter name="navSpec">Rules for the Page List auto-generation</parameter>
+	<action name="navigatorConfig" />
+</config>', NULL, NULL, NULL, 1, NULL);
