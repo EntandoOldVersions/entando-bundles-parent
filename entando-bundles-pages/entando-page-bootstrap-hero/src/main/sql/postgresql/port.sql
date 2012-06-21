@@ -19,73 +19,79 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 		<descr>Navbar 4</descr>
 		<defaultShowlet code="entando-showlet-login_form" />
 	</frame>
-	<frame pos="4" main="true">
+	<frame pos="4">
+		<descr>Toolbar 1</descr>
+	</frame>	
+	<frame pos="5" main="true">
 		<descr>Hero Unit</descr>
 	</frame>
-	<frame pos="5">
-		<descr>Top Story</descr>
-	</frame>
 	<frame pos="6">
-		<descr>Box 1</descr>
+		<descr>Toolbar 2</descr>
 	</frame>	
 	<frame pos="7">
-		<descr>Box 2</descr>
+		<descr>Top Story</descr>
 	</frame>
 	<frame pos="8">
-		<descr>Box 3</descr>
-	</frame>
+		<descr>Box 1</descr>
+	</frame>	
 	<frame pos="9">
-		<descr>Side 1</descr>
+		<descr>Box 2</descr>
 	</frame>
 	<frame pos="10">
-		<descr>Side 2</descr>
+		<descr>Box 3</descr>
 	</frame>
 	<frame pos="11">
-		<descr>Side 3</descr>
+		<descr>Side 1</descr>
 	</frame>
 	<frame pos="12">
-		<descr>Side 4</descr>
+		<descr>Side 2</descr>
 	</frame>
 	<frame pos="13">
-		<descr>Content 1</descr>
+		<descr>Side 3</descr>
 	</frame>
 	<frame pos="14">
-		<descr>Content 2</descr>
+		<descr>Side 4</descr>
 	</frame>
 	<frame pos="15">
-		<descr>Content 3</descr>
+		<descr>Content 1</descr>
 	</frame>
 	<frame pos="16">
-		<descr>Content 4</descr>
+		<descr>Content 2</descr>
 	</frame>
 	<frame pos="17">
-		<descr>Content 5</descr>
+		<descr>Content 3</descr>
 	</frame>
 	<frame pos="18">
-		<descr>Side 5</descr>
+		<descr>Content 4</descr>
 	</frame>
 	<frame pos="19">
-		<descr>Side 6</descr>
+		<descr>Content 5</descr>
 	</frame>
 	<frame pos="20">
-		<descr>Side 7</descr>
+		<descr>Side 5</descr>
 	</frame>
 	<frame pos="21">
-		<descr>Side 8</descr>
-	</frame>	
+		<descr>Side 6</descr>
+	</frame>
 	<frame pos="22">
-		<descr>Footer 1</descr>
+		<descr>Side 7</descr>
 	</frame>
 	<frame pos="23">
-		<descr>Footer 2</descr>
-	</frame>
+		<descr>Side 8</descr>
+	</frame>	
 	<frame pos="24">
-		<descr>Footer 3</descr>
+		<descr>Footer 1</descr>
 	</frame>
 	<frame pos="25">
-		<descr>Footer 4</descr>
+		<descr>Footer 2</descr>
 	</frame>
 	<frame pos="26">
+		<descr>Footer 3</descr>
+	</frame>
+	<frame pos="27">
+		<descr>Footer 4</descr>
+	</frame>
+	<frame pos="28">
 		<descr>Footer 5</descr>
 	</frame>
 </frames>', NULL);
