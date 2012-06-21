@@ -3,3 +3,6 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <property key="en">Navigation - Breadcrumbs</property>
 <property key="it">Navigazione - Briciole di Pane</property>
 </properties>', NULL, NULL, NULL, NULL, 1, NULL);
+
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('ESNB_YOU_ARE_HERE', 'en', 'You are here');
+INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('ESNB_YOU_ARE_HERE', 'it', 'Sei qui');
