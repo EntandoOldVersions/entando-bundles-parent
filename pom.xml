@@ -32,6 +32,7 @@
 		<module>entando-bundles-misc/entando-misc-bootstrap</module>
 		<module>entando-bundles-showlets/entando-showlet-navigation_bar</module>
 		<module>entando-bundles-showlets/entando-showlet-navigation_menu</module>
+		<module>entando-bundles-showlets/entando-showlet-navigation_breadcrumbs</module>
 		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
 		<module>entando-bundles-showlets/entando-showlet-search_form</module>
 		<module>entando-bundles-showlets/entando-showlet-login_form</module>
