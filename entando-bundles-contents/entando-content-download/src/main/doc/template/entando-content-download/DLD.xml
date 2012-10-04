@@ -22,7 +22,7 @@
 			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="textAttributeValidationRules">
 				<required>true</required>
 			</validationRules>
-		</attribute>		
+		</attribute>
 		<attribute>
 			<name>ShortDescr</name>
 			<type>Hypertext</type>
