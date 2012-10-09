@@ -19,7 +19,7 @@
       expected="202"
       printresponse="true" >
       <query>
-        <parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
+        <parameter name="entandoApiToken" value="${entandoApi.token}" />
       </query>
       <headers>
         <header name="Content-Type" value="application/xml" />
@@ -33,7 +33,7 @@
       expected="200"
       printresponse="true" >
       <query>
-        <parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
+        <parameter name="entandoApiToken" value="${entandoApi.token}" />
       </query>
       <headers>
         <header name="Content-Type" value="application/xml" />
@@ -47,7 +47,7 @@
       expected="200"
       printresponse="true" >
       <query>
-        <parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
+        <parameter name="entandoApiToken" value="${entandoApi.token}" />
       </query>
       <headers>
         <header name="Content-Type" value="application/xml" />
@@ -62,7 +62,7 @@
       printresponse="true" >
       <query>
         <parameter name="insertOnLine" value="true" />
-        <parameter name="entandoApiToken" value="571c5cc66e2e2783d5f43edfe74f0f91" />
+        <parameter name="entandoApiToken" value="${entandoApi.token}" />
       </query>
       <headers>
         <header name="Content-Type" value="application/xml" />
