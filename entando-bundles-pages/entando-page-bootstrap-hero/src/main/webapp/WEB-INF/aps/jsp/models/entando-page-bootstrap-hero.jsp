@@ -24,7 +24,7 @@
 
 <body>
 
-	<div class="navbar navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -32,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>		
+				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
 				<div class="nav-collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
@@ -79,7 +79,7 @@
 			<div class="span4">
 				<wp:show frame="10" />
 			</div>
-		</div>		
+		</div>
 
 		<div class="row">
 			<div class="span6">
@@ -96,7 +96,7 @@
 			<div class="span6">
 				<wp:show frame="14" />
 			</div>
-		</div>			
+		</div>
 
 		<div class="row">
 			<div class="span12">
@@ -122,7 +122,7 @@
 			<div class="span12">
 				<wp:show frame="19" />
 			</div>
-		</div>															
+		</div>
 
 		<div class="row">
 			<div class="span6">
