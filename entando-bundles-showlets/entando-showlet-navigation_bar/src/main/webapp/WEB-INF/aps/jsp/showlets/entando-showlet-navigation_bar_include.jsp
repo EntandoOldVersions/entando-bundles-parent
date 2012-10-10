@@ -28,7 +28,7 @@
 	</c:if>
 	<c:if test="${previousPage.voidPage}">
 		<c:set var="liClass" value=' class=" dropdown nav-header"' />
-	</c:if>	
+	</c:if>
 
 	<c:if test="${previousLevel > 0}">
 		<c:set var="liClass" value=' class="dropdown submenu"' />
@@ -40,7 +40,7 @@
 	</c:if>
 
 	<c:set var="aClassAndData" value=' class="dropdown-toggle" data-toggle="dropdown"' />
-	<c:if test="${previousLevel == 0}">	
+	<c:if test="${previousLevel == 0}">
 		<c:set var="caret"> <span class="caret"></span></c:set>
 	</c:if>
 </c:if>
