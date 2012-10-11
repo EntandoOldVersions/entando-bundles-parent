@@ -6,7 +6,7 @@
 -->
 <contentModel>
   <id>10021</id>
-  <contentType>CNG</contentType>
+  <contentType>NWS</contentType>
   <description>Lists - Default</description>
   <shape><![CDATA[<article>
 <p class="text-right"><time class="label" datetime="$content.Date.shortDate">$content.Date.getFormattedDate("EEEE dd MMMM yyyy")</time></p>
