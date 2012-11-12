@@ -4,11 +4,10 @@
 	<parent>
 		<groupId>org.entando.entando.bundles</groupId>
 		<artifactId>entando-bundles-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>3.0.1-SNAPSHOT</version>
 	</parent>	
 	<artifactId>entando-showlet-search_form</artifactId>
 	<groupId>org.entando.entando.bundles.showlets</groupId>
-	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-showlet-search_form</name>
 	<description>CHANGE ME! Write some quick and useful info.</description>

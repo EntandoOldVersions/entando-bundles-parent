@@ -1,17 +1,17 @@
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.7.2.min.js" />
+<wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
+<wp:info key="langs" var="langs" />
+<wp:info key="currentLang" var="currentLang" />
 
-<wp:headInfo type="CSS" info="showlets/entando-showlet-language_choose/entando-showlet-language_choose.css" />
-<wp:info key="langs" var="languages" />
-<wp:info key="currentLang" var="currentLanguage" />
-
-<div class="entando-showlet-language_choose">
-	<ul>
-	<c:forEach var="language" items="${languages}">
-		<c:choose>
-			<c:when test="${currentLanguage == language.code}"><li><span class="current"><c:out value="${language.code}" /></span></li></c:when>
-			<c:otherwise><li><a href="<wp:url lang="${language.code}" paramRepeat="true" />" title="<c:out value="${language.descr}" />"><c:out value="${language.code}" /></a></li></c:otherwise>
-		</c:choose>
-	</c:forEach>
-	</ul>
-</div>
+<ul class="nav">
+	<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-flag icon-white"></span> <wp:i18n key="ESLC_LANGUAGE" /> <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<c:forEach var="iteratorLang" items="${langs}" varStatus="status">
+			<li<c:if test="${iteratorLang.code==currentLang}"> class="active"</c:if>><a href="<wp:url lang="${iteratorLang.code}" paramRepeat="true" />"><wp:i18n key="ESLC_LANG_${iteratorLang.code}" /></a></li>
+		</c:forEach>			
+		</ul>
+	</li>
+</ul>
