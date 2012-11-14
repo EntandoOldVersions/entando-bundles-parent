@@ -4,8 +4,8 @@
 	<parent>
 		<artifactId>entando-bundles-parent</artifactId>
 		<groupId>org.entando.entando.bundles</groupId>
-		<version>3.0.1-SNAPSHOT</version>
-	</parent>	
+		<version>experiment-bundles_with_bootstrap</version>
+	</parent>
 	<artifactId>entando-page-bootstrap-hero</artifactId>
 	<groupId>org.entando.entando.bundles.pages</groupId>
 	<packaging>war</packaging>
