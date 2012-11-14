@@ -52,7 +52,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
@@ -60,7 +60,7 @@
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-bootstrap</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
@@ -68,6 +68,6 @@
 			<version>3.0.1-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
-		</dependency>		
-	</dependencies>	
+		</dependency>
+	</dependencies>
 </project>

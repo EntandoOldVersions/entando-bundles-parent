@@ -52,7 +52,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
@@ -60,7 +60,7 @@
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-bootstrap</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
@@ -73,7 +73,7 @@
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-language_choose</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -86,7 +86,7 @@
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-search_form</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -99,7 +99,7 @@
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_bar</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -112,7 +112,7 @@
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_menu</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -120,12 +120,12 @@
 			<version>3.0.1-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-login_form</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -138,7 +138,7 @@
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_breadcrumbs</artifactId>
 			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -160,5 +160,5 @@
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
-	</dependencies>	
+	</dependencies>
 </project>
