@@ -201,7 +201,7 @@
  		<dependency>
 			<groupId>org.entando.entando</groupId>
 			<artifactId>entando-core-engine</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>experiment-bundles_with_bootstrap</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

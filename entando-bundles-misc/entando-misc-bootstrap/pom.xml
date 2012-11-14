@@ -59,26 +59,26 @@
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-html5-essentials</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>experiment-bundles_with_bootstrap</version>
 			<type>war</type>	
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-html5-essentials</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>experiment-bundles_with_bootstrap</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>		
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-jquery</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>experiment-bundles_with_bootstrap</version>
 			<type>war</type>	
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-jquery</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>experiment-bundles_with_bootstrap</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>			
