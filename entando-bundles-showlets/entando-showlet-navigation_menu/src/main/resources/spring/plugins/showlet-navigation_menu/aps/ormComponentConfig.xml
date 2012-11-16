@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:util="http://www.springframework.org/schema/util"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<util:list id="showlet-navigation_menuPortTableClasses">
+		<!--
+		<value>org.entando.entando.plugins.showlet-navigation_menu.aps.system.orm.portdb.FirstTable</value>
+		<value>org.entando.entando.plugins.showlet-navigation_menu.aps.system.orm.portdb.SecondTable</value>
+		-->
+	</util:list>
+
+	<util:list id="showlet-navigation_menuServTableClasses">
+		<!--
+		<value>org.entando.entando.plugins.showlet-navigation_menu.aps.system.orm.servdb.FirstTable</value>
+		<value>org.entando.entando.plugins.showlet-navigation_menu.aps.system.orm.servdb.SecondTable</value>
+		-->
+	</util:list>
+
+	<bean id="showlet-navigation_menuOrmComponentConfiguration" class="org.entando.entando.aps.system.orm.EntandoComponentConfiguration">
+		<property name="code" value="showlet-navigation_menu" />
+		<property name="dependencies">
+		<list>
+			<!--
+			<value>firstDependency</value>
+			<value>secondDependency</value>
+			-->
+		</list>
+		</property>
+		<property name="tableMapping">
+		<map>
+			<entry key="portDataSource"><ref bean="showlet-navigation_menuPortTableClasses" /></entry>
+			<entry key="servDataSource"><ref bean="showlet-navigation_menuServTableClasses" /></entry>
+		</map>
+		</property>
+		<property name="defaultSqlResources">
+		<map>
+			<entry key="portDataSource"><value>classpath:sql/bundles/showlet-navigation_menu/port_data_${db.script.default.marker}.sql</value></entry>
+			<entry key="servDataSource"><value>classpath:sql/bundles/showlet-navigation_menu/serv_data_${db.script.default.marker}.sql</value></entry>
+		</map>
+		</property>
+	</bean>
+
+</beans>

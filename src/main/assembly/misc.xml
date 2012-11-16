@@ -21,6 +21,6 @@
 				<include>**/*.*</include>
 			</includes>
 			<outputDirectory>rest</outputDirectory>
-		</fileSet>		
+		</fileSet>
 	</fileSets>
 </assembly>
