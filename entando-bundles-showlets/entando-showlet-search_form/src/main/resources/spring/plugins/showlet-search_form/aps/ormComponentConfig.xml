@@ -39,8 +39,8 @@
 		</property>
 		<property name="defaultSqlResources">
 		<map>
-			<entry key="portDataSource"><value>classpath:sql/plugins/showlet-search_form/port_data_${db.script.default.marker}.sql</value></entry>
-			<entry key="servDataSource"><value>classpath:sql/plugins/showlet-search_form/serv_data_${db.script.default.marker}.sql</value></entry>
+			<entry key="portDataSource"><value>classpath:sql/bundles/showlet-search_form/port_data_${db.script.default.marker}.sql</value></entry>
+			<entry key="servDataSource"><value>classpath:sql/bundles/showlet-search_form/serv_data_${db.script.default.marker}.sql</value></entry>
 		</map>
 		</property>
 	</bean>
