@@ -32,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>		
+				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
 				<div class="nav-collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
@@ -57,7 +57,7 @@
 				<wp:show frame="6" />
 				<wp:show frame="7" />
 				<wp:show frame="8" />
-				<wp:show frame="9" />				
+				<wp:show frame="9" />
 			</div>
 			<div class="span9">
 
@@ -98,7 +98,7 @@
 					<div class="span4 offset1">
 						<wp:show frame="18" />
 					</div>
-				</div>			
+				</div>
 
 				<div class="row">
 					<div class="span9">
@@ -124,7 +124,7 @@
 					<div class="span9">
 						<wp:show frame="23" />
 					</div>
-				</div>															
+				</div>
 
 				<div class="row">
 					<div class="span4">
