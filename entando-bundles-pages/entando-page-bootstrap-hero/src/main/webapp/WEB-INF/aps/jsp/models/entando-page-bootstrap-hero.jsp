@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>
-		<wp:currentPage param="title" /> - My Portal
+		<wp:currentPage param="title" /> - <wp:i18n key="PORTAL_TITLE" />
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
