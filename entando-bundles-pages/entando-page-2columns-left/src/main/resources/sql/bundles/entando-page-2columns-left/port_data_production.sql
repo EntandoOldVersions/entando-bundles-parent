@@ -116,5 +116,6 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-2
 
 INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('COPYRIGHT', 'en', 'Copyright &copy; My Company 2012');
 INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('COPYRIGHT', 'it', 'Copyright &copy; Mia Azienda 2012');
+
 INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('PORTAL_TITLE', 'en', 'My Portal');
 INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('PORTAL_TITLE', 'it', 'Mio Portale');
