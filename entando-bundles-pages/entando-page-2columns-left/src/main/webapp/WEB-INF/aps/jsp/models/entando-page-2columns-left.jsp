@@ -148,12 +148,12 @@
 		<hr>
 
 		<footer>
-			<p>&copy; Company 2012</p>
 			<wp:show frame="28" />
 			<wp:show frame="29" />
 			<wp:show frame="30" />
 			<wp:show frame="31" />
 			<wp:show frame="32" />
+			<p class="text-center"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
 		</footer>
 
 	</div> <!-- /container -->

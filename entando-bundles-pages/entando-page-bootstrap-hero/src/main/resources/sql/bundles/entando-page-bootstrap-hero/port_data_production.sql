@@ -95,3 +95,6 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 		<descr>Footer 5</descr>
 	</frame>
 </frames>', NULL);
+
+INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('COPYRIGHT', 'en', 'Copyright &copy; My Company 2012');
+INSERT INTO localstrings (keycode, langcode, stringvalue) VALUES ('COPYRIGHT', 'it', 'Copyright &copy; Mia Azienda 2012');
