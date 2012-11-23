@@ -17,11 +17,26 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <property key="filters">(order=DESC;attributeFilter=true;key=Date)</property>
 <property key="title_it">Notizie</property>
 <property key="linkDescr_it">Archivio »</property>
-<property key="pageLink">homepage</property>
+<property key="pageLink">news</property>
 <property key="title_en">News</property>
 <property key="contentType">NWS</property>
 <property key="modelId">10021</property>
 <property key="linkDescr_en">Archive »</property>
+</properties>', 0, NULL);
+
+INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('NWS_Archive', '<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="en">News - Archive</property>
+<property key="it">Notizie - Archivio</property>
+</properties>', NULL, NULL, 'content_viewer_list', '<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+<property key="maxElemForItem">10</property>
+<property key="title_it">Archivio Notizie</property>
+<property key="userFilters">(attributeFilter=false;key=fulltext)+(attributeFilter=true;key=Date)</property>
+<property key="filters">(order=DESC;attributeFilter=true;key=Date)</property>
+<property key="title_en">News Archive</property>
+<property key="contentType">NWS</property>
+<property key="modelId">10021</property>
 </properties>', 0, NULL);
 
 
