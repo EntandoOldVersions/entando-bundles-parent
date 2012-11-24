@@ -27,7 +27,7 @@
 		<c:set var="liClass" value=' class="dropdown active"' />
 	</c:if>
 	<c:if test="${previousPage.voidPage}">
-		<c:set var="liClass" value=' class=" dropdown nav-header"' />
+		<c:set var="liClass" value=' class=" dropdown"' />
 	</c:if>
 
 	<c:if test="${previousLevel > 0}">
