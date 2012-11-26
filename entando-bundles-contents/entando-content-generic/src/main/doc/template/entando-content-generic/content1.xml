@@ -30,7 +30,7 @@
 					<name>Link</name>
 					<type>Link</type>
 					<value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jaxbLinkValue">
-						<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Learn more »</text>
+						<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Learn more →</text>
 						<url>http://www.entando.com/</url>
 						<symbolikLink>
 							<symbolicDestination>#!U;http://www.entando.com/!#</symbolicDestination>

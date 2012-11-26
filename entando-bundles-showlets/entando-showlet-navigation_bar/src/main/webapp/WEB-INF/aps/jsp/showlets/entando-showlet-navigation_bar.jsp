@@ -14,7 +14,7 @@ $(document).ready(function() {
 		$(this).children('ul').removeClass('submenu-hide').addClass('submenu-show');
 	}, function () {
 		$(this).children('ul').removeClass('.submenu-show').addClass('submenu-hide');
-	}).find("a:first").append(" &raquo; ");
+	}).find("a:first").append(" → ");
 });
 </c:set>
 <wp:headInfo type="JS_RAW" info="${js_raw_code}" />
