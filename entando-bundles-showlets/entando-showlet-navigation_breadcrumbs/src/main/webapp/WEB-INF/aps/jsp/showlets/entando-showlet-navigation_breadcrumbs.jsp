@@ -7,7 +7,7 @@
 <c:set var="first" value="true" />
 <wp:nav spec="current.path" var="currentTarget">
 	<c:set var="currentCode"><c:out value="${currentTarget.code}" /></c:set>
-	<c:if test="${first != 'true'}"> <span class="divider">&raquo;</span> </c:if>
+	<c:if test="${first != 'true'}"> <span class="divider">/</span> </c:if>
 	<c:choose>
 		<c:when test="${!currentTarget.voidPage}">
 			<c:choose>
