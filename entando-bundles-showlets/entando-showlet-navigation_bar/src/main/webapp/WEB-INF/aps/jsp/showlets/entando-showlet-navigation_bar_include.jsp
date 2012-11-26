@@ -31,12 +31,12 @@
 	</c:if>
 
 	<c:if test="${previousLevel > 0}">
-		<c:set var="liClass" value=' class="dropdown submenu"' />
+		<c:set var="liClass" value=' class="dropdown-submenu"' />
 		<c:if test="${previousPage.code == currentPageCode}">
-			<c:set var="liClass" value=' class="dropdown submenu active"' />
+			<c:set var="liClass" value=' class="dropdown-submenu active"' />
 		</c:if>
 
-		<c:set var="ulClass" value=' class="dropdown-menu submenu-show submenu-hide"' />
+		<c:set var="ulClass" value=' class="dropdown-menu"' />
 	</c:if>
 
 	<c:set var="aClassAndData" value=' class="dropdown-toggle" data-toggle="dropdown"' />

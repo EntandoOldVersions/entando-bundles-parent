@@ -3,21 +3,6 @@
 <wp:headInfo type="CSS" info="showlets/entando-showlet-navigation_bar/entando-showlet-navigation_bar.css" />
 <wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.7.2.min.js" />
 <wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
-<%--
-	submenus kindly provided by:
-	Venu Duggireddy ( https://plus.google.com/115676846791337851843/posts )
-	http://jsfiddle.net/4nMkh/4/
---%>
-<c:set var="js_raw_code">
-$(document).ready(function() {
-	$('.submenu').hover(function () {
-		$(this).children('ul').removeClass('submenu-hide').addClass('submenu-show');
-	}, function () {
-		$(this).children('ul').removeClass('.submenu-show').addClass('submenu-hide');
-	}).find("a:first").append(" → ");
-});
-</c:set>
-<wp:headInfo type="JS_RAW" info="${js_raw_code}" />
 
 <wp:currentPage param="code" var="currentPageCode" />
 <c:set var="currentPageCode" value="${currentPageCode}" />
