@@ -8,7 +8,7 @@
 			<name>Number</name>
 			<type>Number</type>
 			<searchable>true</searchable>
-			<indexable>true</indexable>			
+			<indexable>true</indexable>
 			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="numberAttributeValidationRules">
 				<required>true</required>
 			</validationRules>
@@ -40,7 +40,7 @@
 		<attribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jaxbListAttributeType">
 			<name>Documents</name>
 			<type>Monolist</type>
-			<indexable>true</indexable>			
+			<indexable>true</indexable>
 			<nestedType>
 				<name>Documents</name>
 				<type>Attach</type>

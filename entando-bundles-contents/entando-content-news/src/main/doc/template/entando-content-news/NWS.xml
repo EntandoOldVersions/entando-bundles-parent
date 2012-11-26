@@ -33,7 +33,7 @@
 			<name>MainBody</name>
 			<type>Hypertext</type>
 			<indexable>true</indexable>
-		</attribute>		
+		</attribute>
 		<attribute>
 			<name>Picture</name>
 			<type>Image</type>
@@ -51,7 +51,7 @@
 				<type>Link</type>
 				<indexable>true</indexable>
 			</nestedType>
-		</attribute>		
+		</attribute>
 		<attribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="jaxbListAttributeType">
 			<name>Attaches</name>
 			<type>Monolist</type>
