@@ -1,6 +1,5 @@
 <%@ taglib prefix="wp" uri="/aps-core" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<wp:headInfo type="CSS" info="showlets/entando-showlet-navigation_bar/entando-showlet-navigation_bar.css" />
 <wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.7.2.min.js" />
 <wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 
