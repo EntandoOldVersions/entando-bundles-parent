@@ -9,7 +9,7 @@
 		<c:when test="${sessionScope.currentUser != 'guest'}">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-asterisk icon-white"></i> <span class="caret"></span></a>
 			<ul class="dropdown-menu well-small">
-				<li>	
+				<li>
 					<p class="help-block">
 						<wp:i18n key="ESLF_WELCOME" />,&nbsp;<c:out value="${sessionScope.currentUser}"/>!
 					</p>
@@ -47,7 +47,7 @@
 							<button class="close" data-dismiss="alert">x</button>
 							<wp:i18n key="ESLF_USER_STATUS_CREDENTIALS_INVALID" />
 						</div>
-						</c:if>						
+						</c:if>
 
 						<input type="text" name="username" class="input-large" placeholder="<wp:i18n key="ESLF_USERNAME" />">
 						<input type="password" name="password" class="input-large" placeholder="<wp:i18n key="ESLF_PASSWORD" />">
@@ -67,8 +67,8 @@
 					</p>
 					--%>
 				</li>
-			</ul>		
+			</ul>
 		</c:otherwise>
-		</c:choose>		
+		</c:choose>
 	</li>
 </ul>
