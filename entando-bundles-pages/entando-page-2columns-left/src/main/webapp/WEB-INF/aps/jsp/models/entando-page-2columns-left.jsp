@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 				</a>
 				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
-				<div class="nav-collapse">
+				<div class="nav-collapse collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
 					<wp:show frame="2" />
