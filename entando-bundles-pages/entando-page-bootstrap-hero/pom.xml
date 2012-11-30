@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>entando-bundles-parent</artifactId>
 		<groupId>org.entando.entando.bundles</groupId>
-		<version>experiment-bundles_with_bootstrap</version>
+		<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 	</parent>
 	<artifactId>entando-page-bootstrap-hero</artifactId>
 	<groupId>org.entando.entando.bundles.pages</groupId>
@@ -59,78 +59,78 @@
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-bootstrap</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-bootstrap</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-language_choose</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-language_choose</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-search_form</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-search_form</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_bar</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_bar</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-login_form</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-login_form</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.contents</groupId>
 			<artifactId>entando-content-generic</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.contents</groupId>
 			<artifactId>entando-content-generic</artifactId>
-			<version>experiment-bundles_with_bootstrap</version>
+			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
 			<type>zip</type>
 			<classifier>misc</classifier>
 		</dependency>
