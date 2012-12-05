@@ -9,7 +9,7 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 			<properties>
 				<property key="navSpec">code(homepage)</property>
 			</properties>
-		</defaultShowlet>		
+		</defaultShowlet>
 	</frame>
 	<frame pos="2">
 		<descr>Navbar 3</descr>
@@ -33,7 +33,7 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	</frame>
 	<frame pos="8">
 		<descr>Box 1</descr>
-	</frame>	
+	</frame>
 	<frame pos="9">
 		<descr>Box 2</descr>
 	</frame>
@@ -78,7 +78,7 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	</frame>
 	<frame pos="23">
 		<descr>Side 8</descr>
-	</frame>	
+	</frame>
 	<frame pos="24">
 		<descr>Footer 1</descr>
 	</frame>
