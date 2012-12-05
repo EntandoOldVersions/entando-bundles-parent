@@ -21,14 +21,14 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	</frame>
 	<frame pos="4">
 		<descr>Toolbar 1</descr>
-	</frame>	
-	<frame pos="5" main="true">
+	</frame>
+	<frame pos="5">
 		<descr>Hero Unit</descr>
 	</frame>
 	<frame pos="6">
 		<descr>Toolbar 2</descr>
-	</frame>	
-	<frame pos="7">
+	</frame>
+	<frame pos="7" main="true">
 		<descr>Top Story</descr>
 	</frame>
 	<frame pos="8">
