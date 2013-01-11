@@ -204,11 +204,5 @@
 			<version>experiment-components-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.plugins</groupId>
-			<artifactId>entando-plugin-jptokenapi</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>war</type>
-		</dependency>
 	</dependencies>
 </project>
