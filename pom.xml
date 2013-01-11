@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
 	<artifactId>entando-bundles-parent</artifactId>
-	<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
+	<version>experiment-components-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
 	<url>http://www.entando.com/</url>
@@ -201,13 +201,13 @@
  		<dependency>
 			<groupId>org.entando.entando</groupId>
 			<artifactId>entando-core-engine</artifactId>
-			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
+			<version>experiment-components-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.plugins</groupId>
 			<artifactId>entando-plugin-jptokenapi</artifactId>
-			<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
+			<version>experiment-components-SNAPSHOT</version>
 			<type>war</type>
 		</dependency>
 	</dependencies>

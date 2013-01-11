@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.entando.entando.bundles</groupId>
 		<artifactId>entando-bundles-parent</artifactId>
-		<version>experiment-bundles_with_bootstrap-SNAPSHOT</version>
+		<version>experiment-components-SNAPSHOT</version>
 	</parent>
 	<artifactId>entando-misc-jquery</artifactId>
 	<groupId>org.entando.entando.bundles.misc</groupId>
