@@ -102,49 +102,6 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.2.1</version><!--$NO-MVN-MAN-VER$ -->
-				<executions>
-					<execution>
-						<id>assembly-misc-files</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-						<configuration>
-							<ignoreMissingDescriptor>true</ignoreMissingDescriptor>
-							<descriptors>
-								<descriptor>${project.parent.basedir}/src/main/assembly/misc.xml</descriptor>
-							</descriptors>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.3</version><!--$NO-MVN-MAN-VER$ -->
-				<executions>
-					<execution>
-						<id>unpack-misc-dependencies</id>
-						<phase>process-classes</phase>
-						<goals>
-							<goal>unpack-dependencies</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${project.build.directory}/dependencies-unpacked/misc</outputDirectory>
-							<overWriteReleases>false</overWriteReleases>
-							<overWriteSnapshots>true</overWriteSnapshots>
-							<appendOutput>true</appendOutput>
-							<includeGroupIds>org.entando.entando.bundles</includeGroupIds>
-							<includeClassifiers>misc</includeClassifiers>
-							<includeTypes>zip</includeTypes>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
 		</plugins>
 		<pluginManagement>
 			<plugins>
