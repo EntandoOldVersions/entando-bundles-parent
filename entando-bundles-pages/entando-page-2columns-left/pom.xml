@@ -63,24 +63,10 @@
 			<type>war</type>
 		</dependency>
 		<dependency>
-			<groupId>org.entando.entando.bundles.misc</groupId>
-			<artifactId>entando-misc-bootstrap</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>
-		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-language_choose</artifactId>
 			<version>experiment-components-SNAPSHOT</version>
 			<type>war</type>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-language_choose</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -90,23 +76,9 @@
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-search_form</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-navigation_bar</artifactId>
 			<version>experiment-components-SNAPSHOT</version>
 			<type>war</type>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-navigation_bar</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -116,23 +88,9 @@
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-navigation_menu</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
 			<artifactId>entando-showlet-login_form</artifactId>
 			<version>experiment-components-SNAPSHOT</version>
 			<type>war</type>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-login_form</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.showlets</groupId>
@@ -141,24 +99,10 @@
 			<type>war</type>
 		</dependency>
 		<dependency>
-			<groupId>org.entando.entando.bundles.showlets</groupId>
-			<artifactId>entando-showlet-navigation_breadcrumbs</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>
-		<dependency>
 			<groupId>org.entando.entando.bundles.contents</groupId>
 			<artifactId>entando-content-generic</artifactId>
 			<version>experiment-components-SNAPSHOT</version>
 			<type>war</type>
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.contents</groupId>
-			<artifactId>entando-content-generic</artifactId>
-			<version>experiment-components-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
 		</dependency>
 	</dependencies>
 </project>
