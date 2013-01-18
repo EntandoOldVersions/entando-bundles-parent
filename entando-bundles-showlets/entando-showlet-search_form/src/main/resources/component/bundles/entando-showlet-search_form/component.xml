@@ -2,6 +2,9 @@
 <component>
 	<code>entando-showlet-search_form</code>
 	<description>Showlet: Search Form</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

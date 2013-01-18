@@ -2,6 +2,9 @@
 <component>
 	<code>entando-content-resolution</code>
 	<description>Content Type: Resolution</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

@@ -2,6 +2,9 @@
 <component>
 	<code>entando-content-announcement</code>
 	<description>Content Type: Announcement</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

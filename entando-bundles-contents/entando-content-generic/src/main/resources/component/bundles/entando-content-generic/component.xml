@@ -2,6 +2,9 @@
 <component>
 	<code>entando-content-generic</code>
 	<description>Content Type: Generic</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

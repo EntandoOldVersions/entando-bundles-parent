@@ -2,6 +2,9 @@
 <component>
 	<code>entando-content-download</code>
 	<description>Content Type: Download</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

@@ -2,6 +2,9 @@
 <component>
 	<code>entando-content-news</code>
 	<description>Content Type: News</description>
+	<dependencies>
+		<code>jacms</code>
+	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
