@@ -47,7 +47,7 @@
 			<name>Links</name>
 			<type>Monolist</type>
 			<nestedType>
-				<name>Link</name>
+				<name>Links</name>
 				<type>Link</type>
 				<indexable>true</indexable>
 			</nestedType>
