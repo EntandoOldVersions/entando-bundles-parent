@@ -12,21 +12,21 @@
 <c:if test="${previousPage.code != null}">
 	<c:set var="previousLevel" value="${previousPage.level}" />
 	<c:set var="level" value="${page.level}" />
-	<%@ include file="entando-showlet-navigation_menu_include.jsp" %>	
-</c:if>	
+	<%@ include file="entando-showlet-navigation_menu_include.jsp" %>
+</c:if>
 
-	<c:set var="previousPage" value="${page}" />	
+	<c:set var="previousPage" value="${page}" />
 </wp:nav>
 
 	<c:set var="previousLevel" value="${previousPage.level}" />
-	<c:set var="level" value="${0}"  scope="request" /> <%-- we are out, level is 0 --%>	
-	<%@ include file="entando-showlet-navigation_menu_include.jsp" %>	
+	<c:set var="level" value="${0}"  scope="request" /> <%-- we are out, level is 0 --%>
+	<%@ include file="entando-showlet-navigation_menu_include.jsp" %>
 
 	<c:if test="${previousLevel >= 2}">
-		<%-- 
-		previousLevel - 2 : 
-			1 because we're starting from 0, 
-			1 because we skipped 1 cycle in this whole algorithm and previousLevel did not get the last update 
+		<%--
+		previousLevel - 2 :
+			1 because we're starting from 0,
+			1 because we skipped 1 cycle in this whole algorithm and previousLevel did not get the last update
 		--%>
 		<c:set var="endHere" value="${previousLevel - 2}" />
 	</c:if>
