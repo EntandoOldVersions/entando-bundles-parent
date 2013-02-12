@@ -1,1 +1,0 @@
-We chose to move bootstrap.js and bootstrap.min.js in src/main/webapp/resources/static/js/entando-misc-bootstrap for better integration in Entando.
