@@ -36,6 +36,10 @@ classpath:sql/bundles/entando-content-generic/serv_data_production.sql
 						method="POST" expected="200" printresponse="true" >
 					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-content-generic/postprocess/contentModel_10013.xml" />
 				</selfRestCall>
+				<selfRestCall langCode="en" namespace="jacms" resourceName="image"
+						method="POST" expected="200" printresponse="true" >
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-content-generic/postprocess/image1.xml" />
+				</selfRestCall>
 				<selfRestCall langCode="en" namespace="jacms" resourceName="content"
 						method="POST" expected="200" printresponse="true" >
 					<query>
