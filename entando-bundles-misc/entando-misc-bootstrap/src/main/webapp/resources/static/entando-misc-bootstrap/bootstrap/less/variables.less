@@ -2,6 +2,8 @@
 // Variables
 // --------------------------------------------------
 
+// Lines sporting an "//E" comment at the end, have
+// been customized by Entando
 
 // Global values
 // --------------------------------------------------
@@ -22,7 +24,7 @@
 // -------------------------
 @blue:                  #049cdb;
 @blueDark:              #0064cd;
-@green:                 #46a546;
+@green:                 #b2e02e; //E
 @red:                   #9d261d;
 @yellow:                #ffc40d;
 @orange:                #f89406;
@@ -33,13 +35,13 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             @grayDarker; //E
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             darken(@green, 15%); //E
+@linkColorHover:        @green; //E
 
 
 // Typography
@@ -88,11 +90,11 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
-@btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackground:              @linkColorHover; //E
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 15%); //E
 
-@btnInfoBackground:                 #5bc0de;
-@btnInfoBackgroundHighlight:        #2f96b4;
+@btnInfoBackground:                 @purple; //E
+@btnInfoBackgroundHighlight:        spin(@btnInfoBackground, 15%); //E
 
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
@@ -103,7 +105,7 @@
 @btnDangerBackground:               #ee5f5b;
 @btnDangerBackgroundHighlight:      #bd362f;
 
-@btnInverseBackground:              #444;
+@btnInverseBackground:              @gray; //E
 @btnInverseBackgroundHighlight:     @grayDarker;
 
 
@@ -242,7 +244,7 @@
 @successBackground:       #dff0d8;
 @successBorder:           darken(spin(@successBackground, -10), 5%);
 
-@infoText:                #3a87ad;
+@infoText:                @green; //E
 @infoBackground:          #d9edf7;
 @infoBorder:              darken(spin(@infoBackground, -10), 7%);
 
