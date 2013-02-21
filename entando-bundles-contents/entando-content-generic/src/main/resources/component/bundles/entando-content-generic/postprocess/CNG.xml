@@ -23,6 +23,7 @@
 		</attribute>
 		<attribute>
 			<name>MainBody</name>
+			<description>Main Body</description>
 			<type>Hypertext</type>
 			<indexable>true</indexable>
 		</attribute>

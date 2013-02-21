@@ -25,6 +25,7 @@
 		</attribute>
 		<attribute>
 			<name>ShortDescr</name>
+			<description>Short Description</description>
 			<type>Hypertext</type>
 			<indexable>true</indexable>
 			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="textAttributeValidationRules">
@@ -33,6 +34,7 @@
 		</attribute>
 		<attribute>
 			<name>LongDescr</name>
+			<description>Long Description</description>
 			<type>Hypertext</type>
 			<indexable>true</indexable>
 		</attribute>

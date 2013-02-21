@@ -17,6 +17,7 @@
 		</attribute>
 		<attribute>
 			<name>StartDate</name>
+			<description>Start Date</description>
 			<type>Date</type>
 			<searchable>true</searchable>
 			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dateAttributeValidationRules">
@@ -25,6 +26,7 @@
 		</attribute>
 		<attribute>
 			<name>EndDate</name>
+			<description>End Date</description>
 			<type>Date</type>
 			<searchable>true</searchable>
 			<validationRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dateAttributeValidationRules">
