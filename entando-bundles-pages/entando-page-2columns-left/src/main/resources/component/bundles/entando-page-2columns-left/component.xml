@@ -22,6 +22,16 @@ classpath:sql/bundles/entando-page-2columns-left/port_data_production.sql
 classpath:sql/bundles/entando-page-2columns-left/serv_data_production.sql
 				</datasource>
 			</defaultSqlResources>
+			<postProcesses>
+				<selfRestCall langCode="en" namespace="core" resourceName="i18nlabel"
+						method="POST" expected="200" failonerror="false" printresponse="true" >
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-2columns-left/postprocess/i18n_COPYRIGHT.xml" />
+				</selfRestCall>
+				<selfRestCall langCode="en" namespace="core" resourceName="i18nlabel"
+						method="POST" expected="200" failonerror="false" printresponse="true" >
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-2columns-left/postprocess/i18n_PORTAL_TITLE.xml" />
+				</selfRestCall>
+			</postProcesses>
 		</environment>
 	</installation>
 </component>

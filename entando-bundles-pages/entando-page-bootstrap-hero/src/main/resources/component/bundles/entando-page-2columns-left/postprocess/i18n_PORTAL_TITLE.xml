@@ -1,0 +1,13 @@
+<i18nLabel>
+  <key>PORTAL_TITLE</key>
+  <labels>
+    <label>
+      <langCode>en</langCode>
+      <value><![CDATA[Entando Town]]></value>
+    </label>
+    <label>
+      <langCode>it</langCode>
+      <value><![CDATA[Entando Town]]></value>
+    </label>
+  </labels>
+</i18nLabel>
