@@ -10,12 +10,12 @@
 	<groupId>org.entando.entando.bundles.pages</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-page-bootstrap-hero</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>Full width layout, inspired by the classic Hero unit example from Twitter Bootstrap. Default Widgets included.</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>

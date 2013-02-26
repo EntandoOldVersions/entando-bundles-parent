@@ -10,12 +10,12 @@
 	<groupId>org.entando.entando.bundles.contents</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-content-announcement</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>Generic government Announcement, with some sample Contents and default Content Models</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>

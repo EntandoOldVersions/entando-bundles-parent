@@ -24,7 +24,7 @@
 		<developerConnection>scm:git:git@github.com:entando/entando-bundles-parent.git</developerConnection>
 		<url>https://github.com/entando/entando-bundles-parent</url>
 	</scm>
-	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
+	<description>Bundles for Entando: providing small, useful bundles for Entando since 2013.</description>
 	<modules>
 		<module>entando-bundles-misc/entando-misc-less</module>
 		<module>entando-bundles-misc/entando-misc-jquery</module>
@@ -43,10 +43,6 @@
 		<module>entando-bundles-contents/entando-content-announcement</module>
 		<module>entando-bundles-pages/entando-page-bootstrap-hero</module>
 		<module>entando-bundles-pages/entando-page-2columns-left</module>
-		<!--
-		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
-		<module>entando-bundles-pages/entando-page-h5c3-whitey</module>
-		-->
   </modules>
 	<properties>
 	</properties>

@@ -10,12 +10,12 @@
 	<groupId>org.entando.entando.bundles.showlets</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-showlet-navigation_bar</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>A horizontal navigation menu, with drop-downs.</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
