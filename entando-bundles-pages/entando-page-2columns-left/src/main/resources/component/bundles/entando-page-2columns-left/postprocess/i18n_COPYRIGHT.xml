@@ -1,13 +1,13 @@
 <i18nLabel>
-  <key>PORTAL_TITLE</key>
+  <key>COPYRIGHT</key>
   <labels>
     <label>
       <langCode>en</langCode>
-      <value><![CDATA[Entando Town]]></value>
+      <value><![CDATA[Copyright &copy; My Company YYYY]]></value>
     </label>
     <label>
       <langCode>it</langCode>
-      <value><![CDATA[Entando Town]]></value>
+      <value><![CDATA[Copyright &copy; Mia Azienda AAAA]]></value>
     </label>
   </labels>
 </i18nLabel>

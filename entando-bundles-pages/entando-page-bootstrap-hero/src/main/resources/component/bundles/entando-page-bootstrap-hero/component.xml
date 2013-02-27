@@ -23,11 +23,11 @@ classpath:sql/bundles/entando-page-bootstrap-hero/serv_data_production.sql
 			<postProcesses>
 				<selfRestCall langCode="en" namespace="core" resourceName="i18nlabel"
 						method="POST" expected="200" failonerror="false" printresponse="true" >
-					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-2columns-left/postprocess/i18n_COPYRIGHT.xml" />
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-bootstrap-hero/postprocess/i18n_COPYRIGHT.xml" />
 				</selfRestCall>
 				<selfRestCall langCode="en" namespace="core" resourceName="i18nlabel"
 						method="POST" expected="200" failonerror="false" printresponse="true" >
-					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-2columns-left/postprocess/i18n_PORTAL_TITLE.xml" />
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-page-bootstrap-hero/postprocess/i18n_PORTAL_TITLE.xml" />
 				</selfRestCall>
 			</postProcesses>
 		</environment>
