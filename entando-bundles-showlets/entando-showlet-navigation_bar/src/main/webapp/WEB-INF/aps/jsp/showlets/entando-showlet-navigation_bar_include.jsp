@@ -50,5 +50,5 @@
 	<c:if test="${previousLevel == level}"></li></c:if>
 	<c:if test="${previousLevel < level}"><ul<c:out value="${ulClass}" escapeXml="false" />></c:if>
 	<c:if test="${previousLevel > level}">
-		<c:forEach begin="${1}" end="${previousLevel - level}"></li></ul></li></c:forEach>
+		<c:forEach begin="${1}" end="${previousLevel - level}"></li></ul></c:forEach></li>
 	</c:if>
