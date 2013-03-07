@@ -37,7 +37,7 @@
 			<a class="dropdown-toggle text-right" data-toggle="dropdown" href="#"><wp:i18n key="ESLF_SIGNIN" /> <span class="caret"></span></a>
 			<ul class="dropdown-menu well-small">
 				<li>
-					<form class="form-vertical">
+					<form class="form-vertical" method="POST">
 						<c:if test="${accountExpired}">
 						<div class="alert alert-error">
 							<button class="close" data-dismiss="alert">x</button>
