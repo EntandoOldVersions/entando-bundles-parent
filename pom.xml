@@ -19,6 +19,22 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<developers>
+		<developer>
+			<id>e.santoboni</id>
+			<name>Eugenio Santoboni</name>
+			<email>e.santoboni@entando.com</email>
+		</developer>
+		<developer>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
+		</developer>
+	</developers>
+	<organization>
+		<name>Entando S.r.l.</name>
+		<url>http://www.entando.com/</url>
+	</organization>
 	<scm>
 		<connection>scm:git:git://github.com/entando/entando-bundles-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-bundles-parent.git</developerConnection>
