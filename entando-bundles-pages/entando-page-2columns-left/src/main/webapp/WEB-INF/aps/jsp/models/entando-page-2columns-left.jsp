@@ -143,20 +143,35 @@
 					</div>
 				</div>
 			</div>
-		</div>
+	</div> <!-- /container -->
 
-		<hr>
 
-		<footer>
-			<wp:show frame="28" />
-			<wp:show frame="29" />
-			<wp:show frame="30" />
-			<wp:show frame="31" />
-			<wp:show frame="32" />
-			<p class="text-center"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
+		<footer class="padding-medium-top">
+
+			<div class="container">
+				<div class="row margin-medium-bottom">
+					<div class="span12">
+						<wp:show frame="28" />
+						<wp:show frame="29" />
+					</div>
+				</div>
+				<div class="row margin-medium-bottom">
+					<div class="span4">
+						<wp:show frame="30" />
+					</div>
+					<div class="span4">
+						<wp:show frame="31" />
+					</div>
+					<div class="span4">
+						<wp:show frame="32" />
+					</div>
+				</div>
+				<div class="row">
+					<p class="span12 text-center margin-medium-top"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
+				</div>
+			</div>
 		</footer>
 
-	</div> <!-- /container -->
 
 </body>
 </html>
