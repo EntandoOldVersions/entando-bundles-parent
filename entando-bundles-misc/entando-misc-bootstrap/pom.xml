@@ -10,7 +10,7 @@
 	<groupId>org.entando.entando.bundles.misc</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-misc-bootstrap</name>
-	<description>Twitter Bootstrap 2.3.0, with full sources, integrated with entando-archetype-portal-bootstrap, and sporting a default Entando theme.</description>
+	<description>Twitter Bootstrap 2.3.1, with full sources, integrated with entando-archetype-portal-bootstrap, and sporting a default Entando theme.</description>
 	<developers>
 		<developer>
 			<id>w.ghelfi</id>
