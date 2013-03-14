@@ -19,7 +19,9 @@
 				</c:otherwise>
 			</c:choose>
 		</c:when>
-		<c:otherwise><c:out value="${currentTarget.title}" /></c:otherwise>
+		<c:otherwise>
+			<c:out value="${currentTarget.title}" />
+		</c:otherwise>
 	</c:choose>
 	<c:set var="first" value="false" />
 </wp:nav>
