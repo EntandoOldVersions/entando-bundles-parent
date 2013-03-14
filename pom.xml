@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
 	<artifactId>entando-bundles-parent</artifactId>
-	<version>3.2.0</version>
+	<version>3.2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
 	<url>http://www.entando.com/</url>
@@ -39,7 +39,7 @@
 		<connection>scm:git:git://github.com/entando/entando-bundles-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-bundles-parent.git</developerConnection>
 		<url>https://github.com/entando/entando-bundles-parent</url>
-	  <tag>v3.2.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<description>Bundles for Entando: providing small, useful bundles for Entando since 2013.</description>
 	<modules>
@@ -181,7 +181,7 @@
  		<dependency>
 			<groupId>org.entando.entando</groupId>
 			<artifactId>entando-core-engine</artifactId>
-			<version>3.2.0</version>
+			<version>3.2.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
