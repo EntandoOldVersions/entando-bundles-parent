@@ -4,18 +4,18 @@
 	<parent>
 		<artifactId>entando-bundles-parent</artifactId>
 		<groupId>org.entando.entando.bundles</groupId>
-		<version>3.0.1-SNAPSHOT</version>
-	</parent>	
+		<version>3.2.0</version>
+	</parent>
 	<artifactId>entando-content-generic</artifactId>
 	<groupId>org.entando.entando.bundles.contents</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-content-generic</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>Generic Content, well-fit everywhere, at anytime. With some sample Contents, default Content Models, and a couple of fancier ones.</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
@@ -52,7 +52,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
-	</build>	
+	</build>
 </project>

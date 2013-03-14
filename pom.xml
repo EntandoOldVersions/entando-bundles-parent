@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
 	<artifactId>entando-bundles-parent</artifactId>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>3.2.0</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
 	<url>http://www.entando.com/</url>
@@ -19,12 +19,29 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<developers>
+		<developer>
+			<id>e.santoboni</id>
+			<name>Eugenio Santoboni</name>
+			<email>e.santoboni@entando.com</email>
+		</developer>
+		<developer>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
+		</developer>
+	</developers>
+	<organization>
+		<name>Entando S.r.l.</name>
+		<url>http://www.entando.com/</url>
+	</organization>
 	<scm>
 		<connection>scm:git:git://github.com/entando/entando-bundles-parent.git</connection>
 		<developerConnection>scm:git:git@github.com:entando/entando-bundles-parent.git</developerConnection>
 		<url>https://github.com/entando/entando-bundles-parent</url>
-	</scm>	
-	<description>Bundles for Entando: providing small, useful bundles for Entando since 2011.</description>
+	  <tag>v3.2.0</tag>
+  </scm>
+	<description>Bundles for Entando: providing small, useful bundles for Entando since 2013.</description>
 	<modules>
 		<module>entando-bundles-misc/entando-misc-less</module>
 		<module>entando-bundles-misc/entando-misc-jquery</module>
@@ -43,13 +60,9 @@
 		<module>entando-bundles-contents/entando-content-announcement</module>
 		<module>entando-bundles-pages/entando-page-bootstrap-hero</module>
 		<module>entando-bundles-pages/entando-page-2columns-left</module>
-		<!--
-		<module>entando-bundles-pages/entando-page-h5c3-3boxes</module>
-		<module>entando-bundles-pages/entando-page-h5c3-whitey</module>
-		-->
-  </modules>
+	</modules>
 	<properties>
-	</properties>	
+	</properties>
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<extensions>
@@ -62,6 +75,16 @@
 		<resources>
 		</resources>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<tagNameFormat>v@{project.version}</tagNameFormat>
+					<pushChanges>false</pushChanges>
+					<localCheckout>true</localCheckout>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
@@ -84,7 +107,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -101,49 +124,6 @@
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-assembly-plugin</artifactId>
-				<version>2.2.1</version><!--$NO-MVN-MAN-VER$ -->
-				<executions>
-					<execution>
-						<id>assembly-misc-files</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-						<configuration>
-							<ignoreMissingDescriptor>true</ignoreMissingDescriptor>
-							<descriptors>
-								<descriptor>${project.parent.basedir}/src/main/assembly/misc.xml</descriptor>
-							</descriptors>
-						</configuration>
-					</execution>
-				</executions>					
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>2.3</version><!--$NO-MVN-MAN-VER$ -->
-				<executions>
-					<execution>
-						<id>unpack-misc-dependencies</id>
-						<phase>process-classes</phase>
-						<goals>
-							<goal>unpack-dependencies</goal>
-						</goals>
-						<configuration>
-							<outputDirectory>${project.build.directory}/dependencies-unpacked/misc</outputDirectory>
-							<overWriteReleases>false</overWriteReleases>
-							<overWriteSnapshots>true</overWriteSnapshots>
-							<appendOutput>true</appendOutput>
-							<includeGroupIds>org.entando.entando.bundles</includeGroupIds>
-							<includeClassifiers>misc</includeClassifiers>
-							<includeTypes>zip</includeTypes>
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 		<pluginManagement>
@@ -175,7 +155,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<execute/>
+										<execute />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -197,12 +177,12 @@
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 			<scope>provided</scope>
-		</dependency>	
+		</dependency>
  		<dependency>
 			<groupId>org.entando.entando</groupId>
 			<artifactId>entando-core-engine</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
+			<version>3.2.0</version>
 			<scope>provided</scope>
-		</dependency>	
+		</dependency>
 	</dependencies>
 </project>

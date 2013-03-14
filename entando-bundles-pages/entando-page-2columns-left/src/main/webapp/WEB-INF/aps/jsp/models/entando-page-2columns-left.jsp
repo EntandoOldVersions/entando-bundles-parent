@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>
-		<wp:currentPage param="title" /> - My Portal
+		<wp:currentPage param="title" /> - <wp:i18n key="PORTAL_TITLE" />
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
@@ -32,8 +32,8 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>		
-				<div class="nav-collapse">
+				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
+				<div class="nav-collapse collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
 					<wp:show frame="2" />
@@ -57,7 +57,7 @@
 				<wp:show frame="6" />
 				<wp:show frame="7" />
 				<wp:show frame="8" />
-				<wp:show frame="9" />				
+				<wp:show frame="9" />
 			</div>
 			<div class="span9">
 
@@ -98,7 +98,7 @@
 					<div class="span4 offset1">
 						<wp:show frame="18" />
 					</div>
-				</div>			
+				</div>
 
 				<div class="row">
 					<div class="span9">
@@ -124,7 +124,7 @@
 					<div class="span9">
 						<wp:show frame="23" />
 					</div>
-				</div>															
+				</div>
 
 				<div class="row">
 					<div class="span4">
@@ -143,20 +143,35 @@
 					</div>
 				</div>
 			</div>
-		</div>
+	</div> <!-- /container -->
 
-		<hr>
 
-		<footer>
-			<p>&copy; Company 2012</p>
-			<wp:show frame="28" />
-			<wp:show frame="29" />
-			<wp:show frame="30" />
-			<wp:show frame="31" />
-			<wp:show frame="32" />
+		<footer class="padding-medium-top">
+
+			<div class="container">
+				<div class="row margin-medium-bottom">
+					<div class="span12">
+						<wp:show frame="28" />
+						<wp:show frame="29" />
+					</div>
+				</div>
+				<div class="row margin-medium-bottom">
+					<div class="span4">
+						<wp:show frame="30" />
+					</div>
+					<div class="span4">
+						<wp:show frame="31" />
+					</div>
+					<div class="span4">
+						<wp:show frame="32" />
+					</div>
+				</div>
+				<div class="row">
+					<p class="span12 text-center margin-medium-top"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
+				</div>
+			</div>
 		</footer>
 
-	</div> <!-- /container -->
 
 </body>
 </html>

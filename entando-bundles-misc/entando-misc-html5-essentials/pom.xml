@@ -2,27 +2,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-	        <groupId>org.entando.entando.bundles</groupId>
-        	<artifactId>entando-bundles-parent</artifactId>
-	        <version>3.0.1-SNAPSHOT</version>
-	</parent>	
+		<groupId>org.entando.entando.bundles</groupId>
+		<artifactId>entando-bundles-parent</artifactId>
+		<version>3.2.0</version>
+	</parent>
 	<artifactId>entando-misc-html5-essentials</artifactId>
 	<groupId>org.entando.entando.bundles.misc</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-misc-html5-essentials</name>
 	<description>
 		A collection of essential assets for any "HTML5" project.
-		
-		Included are:
-		- Modernizr full with Respond.js, HTML5 Shim, and MQ Polyfill
-		- HTML5 Doctor's HTML5 Reset CSS file
+
+		Includes:
+		- Modernizr 2.5.3 full with Respond.js, HTML5 Shim, and MQ Polyfill
+		- HTML5 Doctor's HTML5 Reset CSS file v1.6.2
 		- HTML5 Shim classic standalone
 	</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
@@ -59,7 +59,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
-	</build>	
+	</build>
 </project>

@@ -27,16 +27,16 @@
 		<c:set var="liClass" value=' class="dropdown active"' />
 	</c:if>
 	<c:if test="${previousPage.voidPage}">
-		<c:set var="liClass" value=' class=" dropdown nav-header"' />
+		<c:set var="liClass" value=' class=" dropdown"' />
 	</c:if>
 
 	<c:if test="${previousLevel > 0}">
-		<c:set var="liClass" value=' class="dropdown submenu"' />
+		<c:set var="liClass" value=' class="dropdown-submenu"' />
 		<c:if test="${previousPage.code == currentPageCode}">
-			<c:set var="liClass" value=' class="dropdown submenu active"' />
+			<c:set var="liClass" value=' class="dropdown-submenu active"' />
 		</c:if>
 
-		<c:set var="ulClass" value=' class="dropdown-menu submenu-show submenu-hide"' />
+		<c:set var="ulClass" value=' class="dropdown-menu"' />
 	</c:if>
 
 	<c:set var="aClassAndData" value=' class="dropdown-toggle" data-toggle="dropdown"' />
@@ -50,5 +50,5 @@
 	<c:if test="${previousLevel == level}"></li></c:if>
 	<c:if test="${previousLevel < level}"><ul<c:out value="${ulClass}" escapeXml="false" />></c:if>
 	<c:if test="${previousLevel > level}">
-		<c:forEach begin="${1}" end="${previousLevel - level}"></li></ul></li></c:forEach>
+		<c:forEach begin="${1}" end="${previousLevel - level}"></li></ul></c:forEach></li>
 	</c:if>

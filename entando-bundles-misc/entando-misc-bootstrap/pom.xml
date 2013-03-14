@@ -4,18 +4,18 @@
 	<parent>
 		<artifactId>entando-bundles-parent</artifactId>
 		<groupId>org.entando.entando.bundles</groupId>
-		<version>3.0.1-SNAPSHOT</version>
+		<version>3.2.0</version>
 	</parent>
 	<artifactId>entando-misc-bootstrap</artifactId>
 	<groupId>org.entando.entando.bundles.misc</groupId>
 	<packaging>war</packaging>
 	<name>Entando Bundle: entando-misc-bootstrap</name>
-	<description>CHANGE ME! Write some quick and useful info.</description>
+	<description>Twitter Bootstrap 2.3.1, with full sources, integrated with entando-archetype-portal-bootstrap, and sporting a default Entando theme.</description>
 	<developers>
 		<developer>
-			<id>myUsername</id>
-			<name>John J. Doe</name>
-			<email>me@myself.com</email>
+			<id>w.ghelfi</id>
+			<name>William Ghelfi</name>
+			<email>w.ghelfi@entando.com</email>
 		</developer>
 	</developers>
 	<url>http://www.entando.com/</url>
@@ -52,35 +52,21 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-html5-essentials</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
-		</dependency>
-		<dependency>
-			<groupId>org.entando.entando.bundles.misc</groupId>
-			<artifactId>entando-misc-html5-essentials</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>		
-		<dependency>
-			<groupId>org.entando.entando.bundles.misc</groupId>
-			<artifactId>entando-misc-jquery</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
-			<type>war</type>	
+			<version>3.2.0</version>
+			<type>war</type>
 		</dependency>
 		<dependency>
 			<groupId>org.entando.entando.bundles.misc</groupId>
 			<artifactId>entando-misc-jquery</artifactId>
-			<version>3.0.1-SNAPSHOT</version>
-			<type>zip</type>
-			<classifier>misc</classifier>
-		</dependency>			
+			<version>3.2.0</version>
+			<type>war</type>
+		</dependency>
 	</dependencies>
 </project>

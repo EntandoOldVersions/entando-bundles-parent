@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>
-		<wp:currentPage param="title" /> - My Portal
+		<wp:currentPage param="title" /> - <wp:i18n key="PORTAL_TITLE" />
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="" />
@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 				</a>
 				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
-				<div class="nav-collapse">
+				<div class="nav-collapse collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
 					<wp:show frame="2" />
@@ -141,18 +141,35 @@
 			</div>
 		</div>
 
-		<hr>
+	</div> <!-- /container -->
 
-		<footer>
-			<p>&copy; Company 2012</p>
-			<wp:show frame="24" />
-			<wp:show frame="25" />
-			<wp:show frame="26" />
-			<wp:show frame="27" />
-			<wp:show frame="28" />
+
+		<footer class="padding-medium-top">
+
+			<div class="container">
+				<div class="row margin-medium-bottom">
+					<div class="span12">
+						<wp:show frame="24" />
+						<wp:show frame="25" />
+					</div>
+				</div>
+				<div class="row margin-medium-bottom">
+					<div class="span4">
+						<wp:show frame="26" />
+					</div>
+					<div class="span4">
+						<wp:show frame="27" />
+					</div>
+					<div class="span4">
+						<wp:show frame="28" />
+					</div>
+				</div>
+				<div class="row">
+					<p class="span12 text-center margin-medium-top"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
+				</div>
+			</div>
 		</footer>
 
-	</div> <!-- /container -->
 
 </body>
 </html>
