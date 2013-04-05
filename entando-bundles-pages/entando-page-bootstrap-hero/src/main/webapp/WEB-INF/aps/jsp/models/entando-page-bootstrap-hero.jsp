@@ -32,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Enterprise Portals Reinvented" /></a>
+				<a class="brand" href="#"><img src="<wp:imgURL />entando-logo.png" alt="Entando - Simplifying Enterprise Portals" /></a>
 				<div class="nav-collapse collapse">
 					<wp:show frame="0" />
 					<wp:show frame="1" />
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<p class="span12 text-center margin-medium-top"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Enterprise Portals Reinvented</a></p>
+					<p class="span12 text-center margin-medium-top"><wp:i18n key="COPYRIGHT" escapeXml="false" /> - Powered by <a href="http://www.entando.com/">Entando - Simplifying Enterprise Portals</a></p>
 				</div>
 			</div>
 		</footer>
