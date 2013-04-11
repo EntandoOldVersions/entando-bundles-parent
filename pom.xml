@@ -61,6 +61,7 @@
 		<module>entando-bundles-contents/entando-content-announcement</module>
 		<module>entando-bundles-pages/entando-page-bootstrap-hero</module>
 		<module>entando-bundles-pages/entando-page-2columns-left</module>
+		<module>entando-bundles-pages/entando-page-myportalplus-basic</module>
 	</modules>
 	<properties>
 	</properties>
