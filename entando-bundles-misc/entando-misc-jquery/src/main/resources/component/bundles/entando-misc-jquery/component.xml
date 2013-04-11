@@ -2,10 +2,6 @@
 <component>
 	<code>entando-misc-jquery</code>
 	<description>Misc: jQuery</description>
-	<dependencies>
-		<code>entando-misc-html5-essentials</code>
-		<code>entando-misc-jquery</code>
-	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
