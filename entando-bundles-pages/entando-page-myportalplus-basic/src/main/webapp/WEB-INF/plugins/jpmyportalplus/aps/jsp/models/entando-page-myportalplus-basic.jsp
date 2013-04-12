@@ -19,8 +19,8 @@
       <script src="<wp:resourceURL />static/js/entando-misc-html5-essentials/html5shiv.js"></script>
     <![endif]-->
 
-    <jsp:include page="inc/lesscss-active/lesscss.jsp" />
-    <jsp:include page="inc/models-common-utils.jsp" />
+    <jsp:include page="/WEB-INF/aps/jsp/models/inc/lesscss-active/lesscss.jsp" />
+    <jsp:include page="/WEB-INF/aps/jsp/models/inc/models-common-utils.jsp" />
 
   <%-- jpmyportal plus - static resources start --%>
     <script src="<wp:resourceURL />static/js/entando-misc-jquery/jquery-1.9.1.min.js"></script>
@@ -30,8 +30,6 @@
     <script src="<wp:resourceURL />plugins/jpmyportalplus/static/js/jpmyportalplus.js"></script>
     <link rel="stylesheet" type="text/css" href="<wp:resourceURL />plugins/jpmyportalplus/static/css/jpmyportalplus.css" media="screen" />
   <%-- jpmyportal plus - static resources start --%>
-
-  <!-- <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/cerulean/bootstrap.min.css"> -->
 
 </head>
 <body>

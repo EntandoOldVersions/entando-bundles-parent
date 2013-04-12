@@ -46,4 +46,4 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-m
   <frame pos="18" locked="true">
     <descr>Footer 5</descr>
   </frame>
-</frames>', NULL);
+</frames>', 'jpmyportalplus');
