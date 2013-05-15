@@ -28,6 +28,12 @@ classpath:sql/bundles/entando-content-announcement/serv_data_production.sql
 						method="POST" expected="200" printresponse="true" >
 					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-content-announcement/postprocess/contentModel_10051.xml" />
 				</selfRestCall>
+				<!-- avoid loop dependency between Content and Content Models -->
+				<selfRestCall langCode="en" namespace="jacms" resourceName="contentType"
+						method="PUT" expected="200" printresponse="true" >
+					<contentBody content-type="application/xml" path="classpath:component/bundles/entando-content-announcement/postprocess/ANN.xml" />
+				</selfRestCall>
+				<!--// avoid loop dependency between Content and Content Models -->
 				<selfRestCall langCode="en" namespace="jacms" resourceName="content"
 						method="POST" expected="200" printresponse="true" >
 					<query>
