@@ -10,7 +10,7 @@
 	- Andrea Dessì <a.dessi@agiletec.it>
 --%>
 
-<wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.9.1.min.js" />
+<wp:headInfo type="JS" info="entando-misc-jquery/jquery-1.10.0.min.js" />
 <wp:headInfo type="JS" info="entando-misc-bootstrap/bootstrap.min.js" />
 
 <wp:currentPage param="code" var="currentPageCode" />
