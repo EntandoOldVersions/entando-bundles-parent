@@ -54,6 +54,7 @@
 		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
 		<module>entando-bundles-showlets/entando-showlet-search_form</module>
 		<module>entando-bundles-showlets/entando-showlet-login_form</module>
+		<module>entando-bundles-showlets/entando-showlet-sharewith</module>
 		<module>entando-bundles-contents/entando-content-generic</module>
 		<module>entando-bundles-contents/entando-content-news</module>
 		<module>entando-bundles-contents/entando-content-download</module>
