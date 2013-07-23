@@ -48,13 +48,13 @@
 		<module>entando-bundles-misc/entando-misc-jquery-ui</module>
 		<module>entando-bundles-misc/entando-misc-html5-essentials</module>
 		<module>entando-bundles-misc/entando-misc-bootstrap</module>
-		<module>entando-bundles-showlets/entando-showlet-navigation_bar</module>
-		<module>entando-bundles-showlets/entando-showlet-navigation_menu</module>
-		<module>entando-bundles-showlets/entando-showlet-navigation_breadcrumbs</module>
-		<module>entando-bundles-showlets/entando-showlet-language_choose</module>
-		<module>entando-bundles-showlets/entando-showlet-search_form</module>
-		<module>entando-bundles-showlets/entando-showlet-login_form</module>
-		<module>entando-bundles-showlets/entando-showlet-sharewith</module>
+		<module>entando-bundles-widgets/entando-widget-navigation_bar</module>
+		<module>entando-bundles-widgets/entando-widget-navigation_menu</module>
+		<module>entando-bundles-widgets/entando-widget-navigation_breadcrumbs</module>
+		<module>entando-bundles-widgets/entando-widget-language_choose</module>
+		<module>entando-bundles-widgets/entando-widget-search_form</module>
+		<module>entando-bundles-widgets/entando-widget-login_form</module>
+		<module>entando-bundles-widgets/entando-widget-sharewith</module>
 		<module>entando-bundles-contents/entando-content-generic</module>
 		<module>entando-bundles-contents/entando-content-news</module>
 		<module>entando-bundles-contents/entando-content-download</module>
