@@ -1,6 +1,6 @@
 <contentType>
-	<defaultModelId>5</defaultModelId>
-	<listModelId>51</listModelId>
+	<defaultModelId>10005</defaultModelId>
+	<listModelId>10051</listModelId>
 	<typeCode>ANN</typeCode>
 	<typeDescription>Announcement</typeDescription>
 	<attributes>
