@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.entando.entando.bundles</groupId>
 	<artifactId>entando-bundles-parent</artifactId>
-	<version>3.2.1-SNAPSHOT</version>
+	<version>3.3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Entando: Bundles parent</name>
 	<url>http://www.entando.com/</url>
@@ -184,7 +184,7 @@
  		<dependency>
 			<groupId>org.entando.entando</groupId>
 			<artifactId>entando-core-engine</artifactId>
-			<version>3.2.1-SNAPSHOT</version>
+			<version>3.3.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
