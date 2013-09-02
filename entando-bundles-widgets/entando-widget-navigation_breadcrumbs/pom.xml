@@ -7,10 +7,10 @@
 		<version>3.2.1-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-	<artifactId>entando-showlet-navigation_breadcrumbs</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-widget-navigation_breadcrumbs</artifactId>
+	<groupId>org.entando.entando.bundles.widgets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-navigation_breadcrumbs</name>
+	<name>Entando Bundle: entando-widget-navigation_breadcrumbs</name>
 	<description>Classic breadcrumbs ("You are here") bar.</description>
 	<developers>
 		<developer>

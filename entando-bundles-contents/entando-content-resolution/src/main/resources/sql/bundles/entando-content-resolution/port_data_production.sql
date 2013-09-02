@@ -1,7 +1,7 @@
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('RSL_DOCUMENTS', 'en', 'Documents');
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('RSL_DOCUMENTS', 'it', 'Documenti');
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('RSL_Latest', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('RSL_Latest', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Resolutions - Latest Resolutions</property>
 <property key="it">Delibere - Ultime Delibere</property>
@@ -18,7 +18,7 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <property key="linkDescr_en">Archive</property>
 </properties>', 0, NULL);
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('RSL_Archive', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('RSL_Archive', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Resolutions - Archive</property>
 <property key="it">Delibere - Archivio</property>

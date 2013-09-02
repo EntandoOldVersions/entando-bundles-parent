@@ -10,7 +10,7 @@ INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('ANN_READ_MORE'
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('ANN_DOCUMENTS', 'en', 'Documents');
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('ANN_DOCUMENTS', 'it', 'Documenti');
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('ANN_Latest', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('ANN_Latest', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Announcements - Latest Announcements</property>
 <property key="it">Bandi - Ultimi Bandi</property>
@@ -27,7 +27,7 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <property key="linkDescr_en">Archive</property>
 </properties>', 0, NULL);
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('ANN_Archive', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('ANN_Archive', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Announcements - Archive</property>
 <property key="it">Bandi - Archivio</property>

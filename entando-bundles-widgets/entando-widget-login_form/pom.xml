@@ -7,10 +7,10 @@
 		<version>3.2.1-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-	<artifactId>entando-showlet-login_form</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-widget-login_form</artifactId>
+	<groupId>org.entando.entando.bundles.widgets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-login_form</name>
+	<name>Entando Bundle: entando-widget-login_form</name>
 	<description>A drop-down sign in widget.</description>
 	<developers>
 		<developer>

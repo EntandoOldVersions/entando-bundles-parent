@@ -7,7 +7,7 @@ INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_LINKS', 'i
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_READ_MORE', 'en', 'View details');
 INSERT INTO localstrings(keycode, langcode, stringvalue) VALUES ('NWS_READ_MORE', 'it', 'Continua');
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('NWS_Latest', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('NWS_Latest', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News - Latest News</property>
 <property key="it">Notizie - Ultime Notizie</property>
@@ -24,7 +24,7 @@ INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode
 <property key="linkDescr_en">Archive</property>
 </properties>', 0, NULL);
 
-INSERT INTO showletcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('NWS_Archive', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('NWS_Archive', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">News - Archive</property>
 <property key="it">Notizie - Archivio</property>

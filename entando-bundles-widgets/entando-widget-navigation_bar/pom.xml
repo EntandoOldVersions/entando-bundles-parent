@@ -7,10 +7,10 @@
 		<version>3.2.1-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-	<artifactId>entando-showlet-navigation_bar</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-widget-navigation_bar</artifactId>
+	<groupId>org.entando.entando.bundles.widgets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-navigation_bar</name>
+	<name>Entando Bundle: entando-widget-navigation_bar</name>
 	<description>A horizontal navigation menu, with drop-downs.</description>
 	<developers>
 		<developer>

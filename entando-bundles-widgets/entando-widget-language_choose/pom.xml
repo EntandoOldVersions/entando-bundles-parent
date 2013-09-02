@@ -7,10 +7,10 @@
 		<version>3.2.1-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-	<artifactId>entando-showlet-language_choose</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-widget-language_choose</artifactId>
+	<groupId>org.entando.entando.bundles.widgets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-language_choose</name>
+	<name>Entando Bundle: entando-widget-language_choose</name>
 	<description>A drop-down menu sporting all the languages configured in your application.</description>
 	<developers>
 		<developer>

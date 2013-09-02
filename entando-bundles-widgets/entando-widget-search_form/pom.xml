@@ -7,10 +7,10 @@
 		<version>3.2.1-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
-	<artifactId>entando-showlet-search_form</artifactId>
-	<groupId>org.entando.entando.bundles.showlets</groupId>
+	<artifactId>entando-widget-search_form</artifactId>
+	<groupId>org.entando.entando.bundles.widgets</groupId>
 	<packaging>war</packaging>
-	<name>Entando Bundle: entando-showlet-search_form</name>
+	<name>Entando Bundle: entando-widget-search_form</name>
 	<description>
 		A search form, suited for the top bar.
 

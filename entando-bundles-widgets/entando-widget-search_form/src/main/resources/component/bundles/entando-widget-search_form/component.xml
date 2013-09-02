@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<code>entando-showlet-language_choose</code>
-	<description>Showlet: Choose Language</description>
+	<code>entando-widget-search_form</code>
+	<description>Showlet: Search Form</description>
 	<dependencies>
-		<code>entando-misc-bootstrap</code>
+		<code>jacms</code>
 	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
 				<datasource name="portDataSource">
-classpath:sql/bundles/entando-showlet-language_choose/port_data_production.sql
+classpath:sql/bundles/entando-widget-search_form/port_data_production.sql
 				</datasource>
 				<datasource name="servDataSource">
-classpath:sql/bundles/entando-showlet-language_choose/serv_data_production.sql
+classpath:sql/bundles/entando-widget-search_form/serv_data_production.sql
 				</datasource>
 			</defaultSqlResources>
 		</environment>

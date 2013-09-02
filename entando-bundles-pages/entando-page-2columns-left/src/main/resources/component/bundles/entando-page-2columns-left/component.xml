@@ -4,13 +4,13 @@
 	<description>Page: 2 Columns, Left + Main</description>
 	<dependencies>
 		<code>entando-misc-bootstrap</code>
-		<code>entando-showlet-language_choose</code>
-		<code>entando-showlet-search_form</code>
-		<code>entando-showlet-navigation_bar</code>
-		<code>entando-showlet-navigation_menu</code>
-		<code>entando-showlet-login_form</code>
-		<code>entando-showlet-navigation_breadcrumbs</code>
-		<code>entando-content-generic</code>
+		<code>entando-widget-language_choose</code>
+		<code>entando-widget-search_form</code>
+		<code>entando-widget-navigation_bar</code>
+		<code>entando-widget-navigation_menu</code>
+		<code>entando-widget-login_form</code>
+		<code>entando-widget-navigation_breadcrumbs</code>
+		<code>entando-widget-generic</code>
 	</dependencies>
 	<installation>
 		<environment code="production">

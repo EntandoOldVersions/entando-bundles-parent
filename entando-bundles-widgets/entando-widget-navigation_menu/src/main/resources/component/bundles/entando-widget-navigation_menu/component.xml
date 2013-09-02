@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<code>entando-showlet-navigation_breadcrumbs</code>
-	<description>Showlet: Navigation Breadcrumbs</description>
+	<code>entando-widget-navigation_menu</code>
+	<description>Showlet: Navigation Menu</description>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
 				<datasource name="portDataSource">
-classpath:sql/bundles/entando-showlet-navigation_breadcrumbs/port_data_production.sql
+classpath:sql/bundles/entando-widget-navigation_menu/port_data_production.sql
 				</datasource>
 				<datasource name="servDataSource">
-classpath:sql/bundles/entando-showlet-navigation_breadcrumbs/serv_data_production.sql
+classpath:sql/bundles/entando-widget-navigation_menu/serv_data_production.sql
 				</datasource>
 			</defaultSqlResources>
 		</environment>

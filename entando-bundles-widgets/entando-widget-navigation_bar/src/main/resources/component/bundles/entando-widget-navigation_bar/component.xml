@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<code>entando-showlet-sharewith</code>
-	<description>Showlet: entando-showlet-sharewith.jsp</description>
+	<code>entando-widget-navigation_bar</code>
+	<description>Showlet: Navigation Bar</description>
 	<dependencies>
-		<code>entando-misc-jquery</code>
+		<code>entando-misc-bootstrap</code>
 	</dependencies>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>
 				<datasource name="portDataSource">
-classpath:sql/bundles/entando-showlet-sharewith/port_data_production.sql
+classpath:sql/bundles/entando-widget-navigation_bar/port_data_production.sql
 				</datasource>
 				<datasource name="servDataSource">
-classpath:sql/bundles/entando-showlet-sharewith/serv_data_production.sql
+classpath:sql/bundles/entando-widget-navigation_bar/serv_data_production.sql
 				</datasource>
 			</defaultSqlResources>
 		</environment>
