@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-navigation_bar</code>
-	<description>Showlet: Navigation Bar</description>
+	<description>Widget: Navigation Bar</description>
 	<dependencies>
 		<code>entando-misc-bootstrap</code>
 	</dependencies>

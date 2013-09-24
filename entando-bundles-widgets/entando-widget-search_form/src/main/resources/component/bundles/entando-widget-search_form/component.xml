@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-search_form</code>
-	<description>Showlet: Search Form</description>
+	<description>Widget: Search Form</description>
 	<dependencies>
 		<code>jacms</code>
 	</dependencies>

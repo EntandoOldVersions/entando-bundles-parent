@@ -1,4 +1,4 @@
-INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('entando-showlet-sharewith', '<?xml version="1.0" encoding="UTF-8"?>
+INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('entando-widget-sharewith', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Share With...</property>
 <property key="it">Condividi con...</property>

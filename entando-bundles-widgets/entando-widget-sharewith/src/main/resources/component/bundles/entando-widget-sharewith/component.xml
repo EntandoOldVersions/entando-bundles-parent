@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-sharewith</code>
-	<description>Showlet: entando-widget-sharewith.jsp</description>
+	<description>Widget: entando-widget-sharewith.jsp</description>
 	<dependencies>
 		<code>entando-misc-jquery</code>
 	</dependencies>

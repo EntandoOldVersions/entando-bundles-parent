@@ -1,11 +1,11 @@
 jQuery(function() {
 	var $ = jQuery;
-	var imgBasePath = window.entando_showlet_sharewith_imgURL;
+	var imgBasePath = window.entando_widget_sharewith_imgURL;
 	if (imgBasePath === undefined) { imgBasePath = '/'; }
 	var currentUrl = encodeURIComponent(document.location.href);
 	var currentTitle = encodeURIComponent(document.title);
 	
-	var targets = $('.entando-showlet-sharewith-buttons');
+	var targets = $('.entando-widget-sharewith-buttons');
 	
 	$.each(window.entando_showlet_sharewith_buttons,function(index, item) {
 		item.link = item.link.replace(/§URL§/g,currentUrl);

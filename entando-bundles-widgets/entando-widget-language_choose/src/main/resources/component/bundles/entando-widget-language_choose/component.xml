@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-language_choose</code>
-	<description>Showlet: Choose Language</description>
+	<description>Widget: Choose Language</description>
 	<dependencies>
 		<code>entando-misc-bootstrap</code>
 	</dependencies>

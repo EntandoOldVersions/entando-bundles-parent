@@ -1,11 +1,11 @@
 INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-bootstrap-hero', 'Bootstrap - Hero Unit', '<frames>
 	<frame pos="0">
 		<descr>Navbar 1</descr>
-		<defaultWidget code="entando-showlet-language_choose" />
+		<defaultWidget code="entando-widget-language_choose" />
 	</frame>
 	<frame pos="1">
 		<descr>Navbar 2</descr>
-		<defaultWidget code="entando-showlet-navigation_bar">
+		<defaultWidget code="entando-widget-navigation_bar">
 			<properties>
 				<property key="navSpec">code(homepage)</property>
 			</properties>
@@ -13,11 +13,11 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-b
 	</frame>
 	<frame pos="2">
 		<descr>Navbar 3</descr>
-		<defaultWidget code="entando-showlet-search_form" />
+		<defaultWidget code="entando-widget-search_form" />
 	</frame>
 	<frame pos="3">
 		<descr>Navbar 4</descr>
-		<defaultWidget code="entando-showlet-login_form" />
+		<defaultWidget code="entando-widget-login_form" />
 	</frame>
 	<frame pos="4">
 		<descr>Toolbar 1</descr>

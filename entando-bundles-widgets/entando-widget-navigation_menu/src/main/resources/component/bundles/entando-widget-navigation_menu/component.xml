@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-navigation_menu</code>
-	<description>Showlet: Navigation Menu</description>
+	<description>Widget: Navigation Menu</description>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-login_form</code>
-	<description>Showlet: Sign In Form</description>
+	<description>Widget: Sign In Form</description>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

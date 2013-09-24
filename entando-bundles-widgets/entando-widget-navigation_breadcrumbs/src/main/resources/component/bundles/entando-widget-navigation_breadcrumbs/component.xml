@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
 	<code>entando-widget-navigation_breadcrumbs</code>
-	<description>Showlet: Navigation Breadcrumbs</description>
+	<description>Widget: Navigation Breadcrumbs</description>
 	<installation>
 		<environment code="production">
 			<defaultSqlResources>

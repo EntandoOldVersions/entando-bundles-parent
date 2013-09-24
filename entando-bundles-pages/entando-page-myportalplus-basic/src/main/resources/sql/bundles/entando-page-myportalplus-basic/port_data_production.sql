@@ -1,11 +1,11 @@
 INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-myportalplus-basic', 'My Portal - Basic', '<frames>
   <frame pos="0" locked="true">
     <descr>Navbar 1</descr>
-    <defaultWidget code="entando-showlet-language_choose" />
+    <defaultWidget code="entando-widget-language_choose" />
   </frame>
   <frame pos="1" locked="true">
     <descr>Navbar 2</descr>
-    <defaultWidget code="entando-showlet-navigation_bar">
+    <defaultWidget code="entando-widget-navigation_bar">
       <properties>
         <property key="navSpec">code(homepage)</property>
       </properties>
@@ -13,11 +13,11 @@ INSERT INTO pagemodels (code, descr, frames, plugincode) VALUES ('entando-page-m
   </frame>
   <frame pos="2" locked="true">
     <descr>Navbar 3</descr>
-    <defaultWidget code="entando-showlet-search_form" />
+    <defaultWidget code="entando-widget-search_form" />
   </frame>
   <frame pos="3" locked="true">
     <descr>Navbar 4</descr>
-    <defaultWidget code="entando-showlet-login_form" />
+    <defaultWidget code="entando-widget-login_form" />
   </frame>
   <frame pos="4" locked="true">
     <descr>Toolbar 1</descr>
