@@ -29,6 +29,14 @@
 						<p class="help-block text-right">
 							<a class="btn" href="<wp:info key="systemParam" paramName="applicationBaseURL" />do/logout.action"><wp:i18n key="ESLF_SIGNOUT" /></a>
 						</p>
+						
+						<wp:pageWithWidget var="editProfilePageVar" widgetTypeCode="userprofile_editCurrentUser" />
+						<c:if test="${null != editProfilePageVar}" >
+						<p class="help-block text-right">
+							<a href="<wp:url page="${editProfilePageVar.code}" />" ><wp:i18n key="ESLF_PROFILE_CONFIGURATION" /></a>
+						</p>
+						</c:if>
+						
 					</li>
 				</ul>
 			</div>
