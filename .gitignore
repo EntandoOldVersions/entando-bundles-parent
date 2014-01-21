@@ -5,3 +5,4 @@ nb-configuration.xml
 .classpath
 .settings/
 .DS_Store
+.node_modules/
