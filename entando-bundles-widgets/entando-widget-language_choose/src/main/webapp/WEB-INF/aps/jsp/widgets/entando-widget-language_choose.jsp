@@ -7,7 +7,7 @@
 
 <ul class="nav">
 	<li class="dropdown">
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-flag icon-white"></span> <wp:i18n key="ESLC_LANGUAGE" /> <span class="caret"></span></a>
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="icon-flag"></span> <wp:i18n key="ESLC_LANGUAGE" /> <span class="caret"></span></a>
 		<ul class="dropdown-menu">
 		<c:forEach var="iteratorLang" items="${langs}" varStatus="status">
 			<li<c:if test="${iteratorLang.code==currentLang}"> class="active"</c:if>><a href="<wp:url lang="${iteratorLang.code}" paramRepeat="true" />"><wp:i18n key="ESLC_LANG_${iteratorLang.code}" /></a></li>

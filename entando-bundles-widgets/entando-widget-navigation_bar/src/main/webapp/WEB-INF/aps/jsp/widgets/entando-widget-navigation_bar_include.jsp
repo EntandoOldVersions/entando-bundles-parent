@@ -14,7 +14,7 @@
 </c:if>
 
 <c:if test="${fn:containsIgnoreCase(previousPage.code, 'homepage')}">
-	<c:set var="homeIcon"><i class="icon-home icon-white"></i>&#32;</c:set>
+	<c:set var="homeIcon"><i class="icon-home"></i>&#32;</c:set>
 </c:if>
 
 <c:if test="${previousPage.code == currentPageCode}">
